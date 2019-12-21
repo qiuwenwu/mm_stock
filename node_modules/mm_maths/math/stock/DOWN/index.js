@@ -5,7 +5,7 @@
  */
 module.exports = function DOWN(arr) {
 	if (arr.length > 2) {
-		var len = arr.length;
+		const len = arr.length;
 		var v1 = arr[len - 3];
 		var v2 = arr[len - 2];
 		var v3 = arr[len - 1];

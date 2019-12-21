@@ -13,7 +13,8 @@ module.exports = function format_plus(expression) {
 		var right = "";
 		var value = "";
 		var vals = exp.split(' ');
-		for (var i = 0; i < vals.length; i++) {
+		const len = vals.length;
+		for (var i = 0; i < len; i++) {
 			var val = vals[i];
 			if (/[a-zA-Z]/.test(val)) {
 				if (val.indexOf('-') === -1) {

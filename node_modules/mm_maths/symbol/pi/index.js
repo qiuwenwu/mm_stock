@@ -6,7 +6,8 @@
 module.exports = function PI(val) {
 	var arr = val.match(/([0-9]+\.)?[0-9]+π/g);
 	if (arr) {
-		for (var i = 0; i < arr.length; i++) {
+		const len = arr.length;
+		for (var i = 0; i < len; i++) {
 			var o = arr[i];
 			if (o) {
 				var v = o.replace('π', '');

@@ -15,7 +15,7 @@ module.exports = function median(arr) {
 			return 0;
 		}
 	});
-	var len = ar.length;
+	const len = ar.length;
 
 	var index = len / 2;
 	var mid;

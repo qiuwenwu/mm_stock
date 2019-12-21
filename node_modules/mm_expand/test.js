@@ -193,6 +193,10 @@ function test_del() {
 	// $.del(drive, "config" , { config: "sort"});
 	$.del(drive, { config: "param" }, { config: { param: "add" } });
 	console.log($.toJson(drive, true));
+	
+	var arr = ["123","test"];
+	var arr2 = ["1234","test"];
+	console.log(arr.add(arr2));
 }
 
 test_del();

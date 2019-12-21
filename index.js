@@ -522,7 +522,7 @@ Stock.prototype.filter = function(ret) {
 	var tip = " " + ret.tip + " ";
 	var weight = ret.weight;
 	var lt = this.list;
-	var len = lt.length;
+	const len = lt.length;
 	for (var i = 0; i < len; i++) {
 		var o = lt[i];
 		if (o.filter) {
@@ -569,7 +569,7 @@ Stock.prototype.summed = function(ret) {
 	};
 
 	var lt = this.list;
-	var len = lt.length;
+	const len = lt.length;
 	for (var i = 0; i < len; i++) {
 		var o = lt[i];
 		if (tip.indexOf(" " + o.name + " ") !== -1) {
@@ -723,7 +723,7 @@ Stock.prototype.run = function(arr, vm) {
 	var tip = "";
 	var weight = 0;
 	var lt = this.list;
-	var len = lt.length;
+	const len = lt.length;
 	for (var i = 0; i < len; i++) {
 		var o = lt[i];
 		if (o.express) {

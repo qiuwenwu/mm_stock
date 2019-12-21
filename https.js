@@ -240,7 +240,7 @@ Http.prototype.run = async function(options, param) {
 		if (hd) {
 			var lt = hd['set-cookie'];
 			if (lt) {
-				var len = lt.length;
+				const len = lt.length;
 				for (var i = 0; i < len; i++) {
 					this.cookie.str(lt[i]);
 				}

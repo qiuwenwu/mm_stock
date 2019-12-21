@@ -8,11 +8,12 @@ const denominator = require('../../math/base/denominator');
 module.exports = function decimal(val) {
 	var arr = val.match(/[0-9]+\.[0-9]+/g);
 	if (arr) {
-		for (var i = 0; i < arr.length; i++) {
+		const len = arr.length;
+		for (var i = 0; i < len; i++) {
 			var o = arr[i];
 			if (o) {
 				var index = o.indexOf('.');
-				var len = o.length;
+				const len = o.length;
 				var integer = Number(o.substring(0, index));
 				var d = o.substring(index + 1, len);
 				var decimal = Number(d);

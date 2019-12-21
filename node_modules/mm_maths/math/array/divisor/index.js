@@ -9,7 +9,8 @@ const max_divisor = require('../../base/max_divisor');
 module.exports = function multiple(arr) {
 	// 获取最小值
 	var m = min(arr);
-	for (var i = 0; i < arr.length; i++) {
+	const len = arr.length;
+	for (var i = 0; i < len; i++) {
 		m = max_divisor(m, arr[i]);
 	}
 	return m;

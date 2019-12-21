@@ -24,7 +24,8 @@ function isPrinme(n) {
  */
 module.exports = function prime(arr) {
 	var arr_new = [];
-	for (var i = 0; i < arr.length; i++) {
+	const len = arr.length;
+	for (var i = 0; i < len; i++) {
 		var n = arr[i];
 		if (isPrinme(n)) {
 			arr_new.push(n);

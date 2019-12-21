@@ -7,7 +7,7 @@ const min = require('../../array/min');
  * @return {Number}
  */
 module.exports = function LLV(arr, period) {
-	var len = arr.length;
+	const len = arr.length;
 	if(period > len){
 		period = len
 	}

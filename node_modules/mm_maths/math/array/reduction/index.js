@@ -6,7 +6,8 @@
  */
 function flatten(arr) {
 	var arr_new = [];
-	for (var i = 0; i < arr.length; i++) {
+	const len = arr.length;
+	for (var i = 0; i < len; i++) {
 		var val = arr[i];
 		if (Array.isArray(val)) {
 			var ar = flatten(val);

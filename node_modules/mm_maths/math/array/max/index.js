@@ -5,7 +5,8 @@
  */
 module.exports = function max(arr) {
 	var number = 0;
-	for (var i = 0; i < arr.length; i++) {
+	const len = arr.length;
+	for (var i = 0; i < len; i++) {
 		var num = arr[i];
 		if(num > number)
 		{
