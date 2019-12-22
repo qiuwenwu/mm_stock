@@ -322,7 +322,7 @@ Http.prototype.post = function(url, param, headers, type, cookie) {
 			type = "text/plain; charset=UTF-8";
 		}
 		if (type.indexOf('/json') !== -1) {
-			body = $.toJson(param);
+			body = JSON.stringify(param);
 		} else if (type.indexOf('form') !== -1) {
 			body = $.toUrl(param);
 		} else {
