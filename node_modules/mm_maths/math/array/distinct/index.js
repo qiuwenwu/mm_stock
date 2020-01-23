@@ -6,7 +6,7 @@
 module.exports = function distinct(arr) {
 	var i = 0;
 	var j = 0;
-	const len = arr.length;
+	var len = arr.length;
 	for (i = 0; i < len; i++) {
 		for (j = i + 1; j < len; j++) {
 			if (arr[i] == arr[j]) {

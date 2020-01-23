@@ -9,7 +9,7 @@ const AVERAGE = require('../AVERAGE');
 module.exports = function AP(arr, n) {
 	var num = AVERAGE(arr);
 	var t = 0;
-	const len = arr.length;
+	var len = arr.length;
 	for (var i = 0; i < len; i++) {
 		var v = arr[i];
 		if (v <= num * (1 + n) && v >= num * (1 - n)) {

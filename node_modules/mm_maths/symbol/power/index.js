@@ -7,7 +7,7 @@ module.exports = function power(val) {
 	var arr = val.match(/[a-zA-Z]\^-?[0-9]+/g);
 	
 	if (arr) {
-		const len = arr.length;
+		var len = arr.length;
 		for (var i = 0; i < len; i++) {
 			var o = arr[i];
 			if (o) {
@@ -21,13 +21,13 @@ module.exports = function power(val) {
 				{
 					if(t.indexOf('-') === 0)
 					{
-						const len = Number(t.replace('-', ''));
+						var len = Number(t.replace('-', ''));
 						for(var t = 0; t < len; t++){
 							v += " * " + k;
 						}
 					}
 					else {
-						const len = Number(t);
+						var len = Number(t);
 						for(var t = 0; t < len; t++){
 							v += " / " + k;
 						}
@@ -42,7 +42,7 @@ module.exports = function power(val) {
 					var rx = new RegExp("/ ?" + o.replace('^', '\\^'), "g");
 					if(t.indexOf('-') === 0)
 					{
-						const len = Number(t.replace('-', ''));
+						var len = Number(t.replace('-', ''));
 						v = " * 1"
 						for(var t = 0; t < len; t++){
 							v += " / " + k;
@@ -50,7 +50,7 @@ module.exports = function power(val) {
 						val = val.replace(rx, v.replace(" * 1 ", "").replace(/\//g, '*'));
 					}
 					else {
-						const len = Number(t);
+						var len = Number(t);
 						for(var t = 0; t < len; t++){
 							v += " * " + k;
 						}
@@ -64,7 +64,7 @@ module.exports = function power(val) {
 	}
 	arr = val.match(/([0-9]+\.)?[0-9]+\^-?[0-9]+/g);
 	if (arr) {
-		const len = arr.length;
+		var len = arr.length;
 		for (var i = 0; i < len; i++) {
 			var o = arr[i];
 			if (o) {

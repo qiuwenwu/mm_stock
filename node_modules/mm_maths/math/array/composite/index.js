@@ -24,7 +24,7 @@ function isComposite(n) {
  */
 module.exports = function composite(arr) {
 	var arr_new = [];
-	const len = arr.length;
+	var len = arr.length;
 	for (var i = 0; i < len; i++) {
 		var n = arr[i];
 		if (isComposite(n)) {

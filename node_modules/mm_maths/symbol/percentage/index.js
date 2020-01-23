@@ -8,7 +8,7 @@ const denominator = require('../../math/base/denominator');
 module.exports = function percentage(val) {
 	var arr = val.match(/([0-9]+\.)?[0-9]+%/g);
 	if (arr) {
-		const len = arr.length;
+		var len = arr.length;
 		for (var i = 0; i < len; i++) {
 			var o = arr[i];
 			if (o) {
@@ -16,7 +16,7 @@ module.exports = function percentage(val) {
 				v = (Number(v) / 100) + '';
 				var index = v.indexOf('.');
 				if(index !== -1){
-					const len = v.length;
+					var len = v.length;
 					var integer = Number(v.substring(0, index));
 					var d = v.substring(index + 1, len);
 					var decimal = Number(d);

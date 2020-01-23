@@ -1,4 +1,4 @@
-var CLOSE = require('./index');
+var ARR = require('./index');
 
 var list = [{
 		// 股票编码
@@ -42,4 +42,4 @@ var list = [{
 	}
 ]
 
-console.log(CLOSE(list));
+console.log(ARR(list, 1));

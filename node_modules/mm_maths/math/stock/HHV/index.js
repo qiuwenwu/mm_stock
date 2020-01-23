@@ -7,7 +7,7 @@ const max = require('../../array/max');
  * @return {Number}
  */
 module.exports = function HHV(arr, period) {
-	const len = arr.length;
+	var len = arr.length;
 	if(period > len){
 		period = len
 	}

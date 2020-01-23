@@ -5,7 +5,7 @@
  */
 module.exports = function natural(arr) {
 	var arr_new = [];
-	const len = arr.length;
+	var len = arr.length;
 	for (var i = 0; i < len; i++) {
 		var num = arr[i];
 		if(num >= 0 && num === parseInt(num))

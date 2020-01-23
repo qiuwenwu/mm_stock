@@ -5,7 +5,7 @@
  * @return {Array} 返回平均值数组
  */
 module.exports = function REF(arr, n) {
-	const len = arr.length;
+	var len = arr.length;
 	if (len <= n) {
 		return 0;
 	}

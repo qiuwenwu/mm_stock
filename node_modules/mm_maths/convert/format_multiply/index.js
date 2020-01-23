@@ -13,7 +13,7 @@ module.exports = function format_multiply(expression) {
 		var right = "";
 		var value = "";
 		var vals = exp.split(' ');
-		const len = vals.length;
+		var len = vals.length;
 		for (var i = 0; i < len; i++) {
 			var val = vals[i];
 			if (/[a-zA-Z]/.test(val)) {

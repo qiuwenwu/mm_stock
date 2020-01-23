@@ -5,7 +5,7 @@
  */
 module.exports = function sum(arr) {
 	var num = 0;
-	const len = arr.length;
+	var len = arr.length;
 	for (var i = 0; i < len; i++) {
 		num += arr[i];
 	}

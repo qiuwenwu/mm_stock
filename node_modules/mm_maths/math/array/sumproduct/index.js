@@ -5,7 +5,7 @@
  */
 module.exports = function sumproduct(arr) {
 	var num = 1;
-	const len = arr.length;
+	var len = arr.length;
 	for (var i = 0; i < len; i++) {
 		num *= arr[i];
 	}

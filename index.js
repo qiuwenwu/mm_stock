@@ -14,16 +14,15 @@ class Stock {
 		maths.update(null, "stock");
 
 		this.maths = maths;
-		
-		this.list = [
-			{
+
+		this.list = [{
 				name: "均线下拐",
 				express: `
 					var MA5 = MA(CLOSE, 5);
 					var MA10 = MA(CLOSE, 10);
 					return REF(MA5, 2) < REF(MA5, 1) && REF(MA5, 0) < REF(MA5, 1) && REF(MA5, 0) > REF(MA10, 0);
 				`,
-				weight: -1,
+				weight: -2,
 				policy: "卖",
 				description: "5日均线上穿10日均线后，首次出现向下走势",
 				presage: "今日看跌，近日看淡，后市横盘"
@@ -35,7 +34,7 @@ class Stock {
 					var MA10 = MA(CLOSE, 10);
 					return REF(MA5, 2) > REF(MA5, 1) && REF(MA5, 0) > REF(MA5, 1) * 1.01 && REF(MA5, 1) < REF(MA10, 1);
 				`,
-				weight: 1,
+				weight: 2,
 				policy: "买",
 				description: "5日均线下破10日均线后，首次出现向上走势",
 				presage: "今日看涨，近日看好，后市横盘"
@@ -52,7 +51,7 @@ class Stock {
 					var R2 = RIGHT(MA10, 4);
 					return CROSS(R1, R2) && A1 && G1 && REF(MA60, 2) > REF(MA2, 2);
 				`,
-				weight: 2,
+				weight: 3,
 				policy: "买",
 				description: "预测今日均价，然后短期均线上穿长期均线",
 				presage: "今日看涨，近日看涨，后市看好",
@@ -69,7 +68,7 @@ class Stock {
 					var R2 = RIGHT(MA10, 5);
 					return CROSS(R1, R2) && A1 && G1;
 				`,
-				weight: -2,
+				weight: -3,
 				policy: "卖",
 				description: "预测今日均价，然后长期均线下短破期均线",
 				presage: "今日看跌，近日看跌，后市看淡",
@@ -87,7 +86,7 @@ class Stock {
 					var A1 = REF(MA10, 0) > REF(MA10, 1);
 					return CROSS(R1, R2) && A1 && REF(MA60, 2) > REF(MA5, 2);
 				`,
-				weight: 2,
+				weight: 3,
 				filter: "均线金叉(预)",
 				policy: "买",
 				description: "短期均线上穿长期均线",
@@ -104,7 +103,7 @@ class Stock {
 					var A1 = REF(MA5, 0) < REF(MA5, 1);
 					return CROSS(R1, R2) && A1;
 				`,
-				weight: -2,
+				weight: -3,
 				filter: "均线死叉(预)",
 				policy: "卖",
 				description: "长期均线下短破期均线",
@@ -196,7 +195,7 @@ class Stock {
 					var RET = REF(MA5, 0) > REF(MA10, 0) && REF(MA10, 0) > REF(MA30, 0) && REF(MA30, 0) > REF(MA60, 0);
 					return RET && REF(MA30, 0) > REF(MA30, 1) && REF(MA10, 0) > REF(MA10, 1);
 				`,
-				weight: 1,
+				weight: 2,
 				filter: "均线金叉",
 				policy: "留",
 				description: "5日、10日、30日、60日均线依次从上到下排列",
@@ -212,7 +211,7 @@ class Stock {
 					var RET = REF(MA5, 0) < REF(MA10, 0) && REF(MA10, 0) < REF(MA30, 0) && REF(MA30, 0) < REF(MA60, 0);
 					return RET && REF(MA30, 0) < REF(MA30, 1) && REF(MA10, 0) < REF(MA10, 1);
 				`,
-				weight: -1,
+				weight: -2,
 				filter: "均线死叉",
 				policy: "卖",
 				description: "60日、30日、10日、5日均线依次从上到下排列",
@@ -226,7 +225,7 @@ class Stock {
 					var Ya = AYANG(OPEN, CLOSE, CHG, 0, 0.02);
 					return Yi && Sr && Ya
 				`,
-				weight: 3,
+				weight: 4,
 				policy: "买",
 				description: "大跌过后，次日出现十字星，今日又呈现大涨形势",
 				presage: "今日大涨，近日大涨，后市横盘"
@@ -239,7 +238,7 @@ class Stock {
 					var Yi = AYIN(OPEN, CLOSE, CHG, 0, 0.02);
 					return Ya && Sr && Yi
 				`,
-				weight: -3,
+				weight: -4,
 				policy: "卖",
 				description: "大涨过后，次日出现十字星，今日又呈现大跌形势",
 				presage: "今日大跌，近日大跌，后市横盘"
@@ -252,7 +251,7 @@ class Stock {
 					var Ya = AYANG(OPEN, CLOSE, CHG, 1, 0.04);
 					return Yi && Sr && Ya
 				`,
-				weight: 3,
+				weight: 4,
 				filter: "早晨之星(预)",
 				policy: "买",
 				description: "大跌过后，次日出现十字星，昨日又大涨",
@@ -266,7 +265,7 @@ class Stock {
 					var Yi = AYIN(OPEN, CLOSE, CHG, 1, 0.04);
 					return Ya && Sr && Yi
 				`,
-				weight: -3,
+				weight: -4,
 				filter: "黄昏之星(预)",
 				policy: "卖",
 				description: "大涨过后，次日出现十字星，昨日又大跌",
@@ -284,7 +283,7 @@ class Stock {
 					var G1 = REF(CHG, 1) > 2;
 					return Ld && G0 && G1 && REF(CHG, 3) < 0 && REF(CHG, 2) < 0
 				`,
-				weight: 2,
+				weight: 3,
 				policy: "买",
 				description: "连跌数日，今日突现大涨形势",
 				presage: "今日大涨，近日看涨，后市横盘"
@@ -299,7 +298,7 @@ class Stock {
 					var Ld = DOWN(A2);
 					return Ld && C1 > O2 && REF(CHG, 3) < 0 && REF(CHG, 2) < 0
 				`,
-				weight: 2,
+				weight: 3,
 				policy: "买",
 				description: "连跌数日，昨日突然大涨",
 				presage: "今日大涨，近日看涨，后市横盘"
@@ -349,7 +348,7 @@ class Stock {
 					var Ha = AYANG(OPEN, CLOSE, CHG, 2, 0.04);
 					return Ha && Hi && H1 > H2
 				`,
-				weight: -2,
+				weight: -3,
 				filter: "阳奉阴违",
 				policy: "卖",
 				description: "大涨之后，次日出现盖住大涨最高价的大阴线",
@@ -410,7 +409,7 @@ class Stock {
 					var C2 = REF(CLOSE, 2);
 					return Hi && O1 > C2 && C1 > O2;
 				`,
-				weight: 1,
+				weight: 2,
 				policy: "买",
 				description: "大阴线过后，次日出现开盘价大于昨日收盘价，且收盘价大于昨日开盘价的大阳线",
 				presage: "今日看涨，近日看涨，后市看好"
@@ -522,7 +521,7 @@ Stock.prototype.filter = function(ret) {
 	var tip = " " + ret.tip + " ";
 	var weight = ret.weight;
 	var lt = this.list;
-	const len = lt.length;
+	var len = lt.length;
 	for (var i = 0; i < len; i++) {
 		var o = lt[i];
 		if (o.filter) {
@@ -569,7 +568,7 @@ Stock.prototype.summed = function(ret) {
 	};
 
 	var lt = this.list;
-	const len = lt.length;
+	var len = lt.length;
 	for (var i = 0; i < len; i++) {
 		var o = lt[i];
 		if (tip.indexOf(" " + o.name + " ") !== -1) {
@@ -630,38 +629,51 @@ Stock.prototype.summed = function(ret) {
 Stock.prototype.action = function(policy, presage) {
 	var act = "";
 	if (policy.sell == policy.hold && policy.buy == policy.sell) {
-		act = "留"
+		act = "观察"
 	} else if (policy.sell >= policy.hold) {
 		if (policy.sell > policy.buy) {
-			act = "卖"
+			act = "卖出"
 		} else if (policy.sell < policy.buy) {
-			act = "买"
+			act = "买入"
 		} else {
 			// 买卖相等的下
 			if (presage.today > 1) {
-				act = "买"
+				act = "留守"
 			} else if (presage.today < -1) {
-				act = "卖"
+				act = "警惕"
 			} else {
 				// 如果今日可能横盘，则看近日
 				if (presage.recently > 0) {
-					act = "买"
+					act = "留守"
 				} else if (presage.recently < 0) {
-					act = "卖"
-				}
-				else {
-					act = "留"
+					act = "警惕"
+				} else {
+					act = "观察"
 				}
 			}
 		}
 	} else if (policy.buy >= policy.hold) {
 		if (policy.buy > policy.sell) {
-			act = "买"
+			act = "买入"
 		} else if (policy.buy < policy.sell) {
-			act = "卖"
+			act = "卖出"
 		}
 	} else {
-		act = "留"
+		// 买卖相等的下
+		if (presage.today > 1) {
+			act = "留守"
+		} else if (presage.today < -1) {
+			act = "警惕"
+		} else {
+			// 如果今日可能横盘，则看近日
+			if (presage.recently > 0) {
+				act = "留守"
+			} else if (presage.recently < 0) {
+				act = "警惕"
+			} else {
+				act = "观察"
+			}
+		}
 	}
 	return act;
 };
@@ -675,7 +687,7 @@ Stock.prototype.action = function(policy, presage) {
  */
 Stock.prototype.predict = function(time, weight) {
 	var ret = "不明";
-	if(weight === 0){
+	if (weight === 0) {
 		if (time == "今日") {
 			if (weight > 0) {
 				ret = "看好";
@@ -683,20 +695,17 @@ Stock.prototype.predict = function(time, weight) {
 				ret = "看淡";
 			}
 		}
-	}
-	else if (weight === -1 || weight === 1) {
+	} else if (weight === -1 || weight === 1) {
 		if (time == "今日") {
 			if (weight === 1) {
 				ret = "看好";
 			} else if (weight === -1) {
 				ret = "看淡";
 			}
-		}
-		else {
+		} else {
 			ret = "横盘";
 		}
-	}
-	else if (weight > 4) {
+	} else if (weight > 4) {
 		ret = "大涨";
 	} else if (weight > 2) {
 		ret = "看涨";
@@ -723,7 +732,7 @@ Stock.prototype.run = function(arr, vm) {
 	var tip = "";
 	var weight = 0;
 	var lt = this.list;
-	const len = lt.length;
+	var len = lt.length;
 	for (var i = 0; i < len; i++) {
 		var o = lt[i];
 		if (o.express) {

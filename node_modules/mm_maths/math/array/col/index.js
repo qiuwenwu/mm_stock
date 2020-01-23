@@ -6,7 +6,7 @@
  */
 module.exports = function col(arr, y) {
 	var arr_new = [];
-	const len = arr.length;
+	var len = arr.length;
 	for (var i = 0; i < len; i++) {
 		var arr_sub = arr[i];
 		if (arr_sub.length >= y) {

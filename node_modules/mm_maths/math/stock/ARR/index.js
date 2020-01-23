@@ -4,6 +4,6 @@
  * @param {Number} n 推前成员数
  * @return {Array} 返回数组
  */
-module.exports = function ARR(arr, n) {
+module.exports = function ARR(arr, n = 0) {
 	return arr.slice(0, arr.length - n);
 }

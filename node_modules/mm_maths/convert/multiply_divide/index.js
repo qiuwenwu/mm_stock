@@ -25,7 +25,7 @@ function multiply_divide(expression) {
 			if (str.indexOf('^') !== -1) {
 				var n = Number(str.right('^'));
 				var ar = k.match(/[a-zA-Z]/);
-				const len = ar.length;
+				var len = ar.length;
 				for (var i = 0; i < len; i++) {
 					var ki = ar[i];
 					if (!dict.hasOwnProperty(ki)) {
@@ -38,8 +38,8 @@ function multiply_divide(expression) {
 					}
 				}
 				var ar = k.split(/[a-zA-Z]+/);
-				const len = ar.length;
-				for (var i = 0; i < len; i++) {
+				const l = ar.length;
+				for (var i = 0; i < l; i++) {
 					var m = ar[i];
 					if (str.indexOf('/') !== -1) {
 						if (multiply % m === 0) {
@@ -56,7 +56,8 @@ function multiply_divide(expression) {
 					// console.log(k);
 					var ar = k.split(/[a-zA-Z]+/);
 					if (ar) {
-						for (var i = 0; i < ar.length; i++) {
+						var len = ar.length;
+						for (var i = 0; i < len; i++) {
 							var txt = ar[i];
 							if (txt) {
 								var m = Number(txt);

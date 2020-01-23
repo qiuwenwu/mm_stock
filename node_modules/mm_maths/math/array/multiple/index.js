@@ -9,7 +9,7 @@ const min_multiple = require('../../base/min_multiple');
  */
 module.exports = function multiple(arr) {
 	var n = max(arr);
-	const len = arr.length;
+	var len = arr.length;
 	for (var i = 0; i < len; i++) {
 		n = min_multiple(n, arr[i]);
 	}

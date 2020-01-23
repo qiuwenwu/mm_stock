@@ -9,11 +9,11 @@ module.exports = function UP(arr, n) {
 	if(n){
 		num += n;
 	}
-	if (arr.length > 2) {
-		const len = arr.length;
-		var v1 = arr[len - 3];
-		var v2 = arr[len - 2];
-		var v3 = arr[len - 1];
+	if (arr.length > 3) {
+		var len = arr.length;
+		var v1 = arr[len - 4];
+		var v2 = arr[len - 3];
+		var v3 = arr[len - 2];
 		if (v3 > v2 * num && v2 > v1 * num) {
 			return 1
 		}
