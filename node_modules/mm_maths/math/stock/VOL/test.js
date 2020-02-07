@@ -1,4 +1,4 @@
-var OPEN = require('./index');
+var VOL = require('./index');
 
 var list = [{
 		// 股票编码
@@ -42,4 +42,4 @@ var list = [{
 	}
 ]
 
-console.log(OPEN(list));
+console.log(VOL(list));

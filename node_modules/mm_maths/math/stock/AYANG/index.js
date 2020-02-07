@@ -10,7 +10,7 @@ const REF = require('../REF');
  * @param {Number} n 幅度, 如果大阳线则设0.05
  * @return {Number} 判断正确返回1, 否则返回0
  */
-module.exports = function AYANG(arr_open, arr_close, arr_chg, idx, n) {
+module.exports = function AYANG(arr_open, arr_close, arr_chg, idx, n = 0.02) {
 	var open = REF(arr_open, idx);
 	var close = REF(arr_close, idx);
 	var chg = REF(arr_chg, idx);

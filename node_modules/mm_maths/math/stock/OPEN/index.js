@@ -4,10 +4,7 @@
  * @param {String} key 字段
  * @return {Array} 返回数值数组
  */
-module.exports = function OPEN(list, key) {
-	if (!key) {
-		key = "open";
-	}
+module.exports = function OPEN(list, key = "open") {
 	return list.map(function(o) {
 		return o[key];
 	});

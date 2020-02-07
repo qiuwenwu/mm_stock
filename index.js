@@ -90,7 +90,7 @@ class Stock {
 				filter: "均线金叉(预)",
 				policy: "买",
 				description: "短期均线上穿长期均线",
-				presage: "今日看涨，近日看涨，后市看好"
+				presage: "今日大涨，近日看涨，后市看好"
 			},
 			{
 				name: "均线死叉",
@@ -107,7 +107,7 @@ class Stock {
 				filter: "均线死叉(预)",
 				policy: "卖",
 				description: "长期均线下短破期均线",
-				presage: "今日看跌，近日看跌，后市看淡"
+				presage: "今日大跌，近日看跌，后市看淡"
 			},
 			{
 				name: "放量上涨",
@@ -120,20 +120,20 @@ class Stock {
 				weight: 1,
 				policy: "留",
 				description: "连续多日交易量放大，并昨日上涨",
-				presage: "今日看涨，近日看好，后市看跌"
+				presage: "今日看涨，近日看好，后市横盘"
 			},
 			{
 				name: "放量下跌",
 				express: `
 					var Vr = ARR(VOL, 1);
 					var Vu = UP(Vr, 0.02);
-					var G1 = REF(CHG, 1) < 2;
+					var G1 = REF(CHG, 1) < -2;
 					return Vu && G1
 				`,
 				weight: -2,
 				policy: "卖",
 				description: "连续多日交易量放大，并昨日下跌",
-				presage: "今日看跌，近日大跌，后市看淡"
+				presage: "今日大跌，近日看跌，后市横盘"
 			},
 			{
 				name: "缩量上涨",
@@ -146,20 +146,20 @@ class Stock {
 				weight: 2,
 				policy: "买",
 				description: "连续多日交易量缩小，并昨日上涨",
-				presage: "今日看涨，近日大涨，后市横盘"
+				presage: "今日大涨，近日看涨，后市横盘"
 			},
 			{
 				name: "缩量下跌",
 				express: `
 					var Vr = ARR(VOL, 1);
 					var Vd = DOWN(Vr, 0.02);
-					var G1 = REF(CHG, 1) < 2;
+					var G1 = REF(CHG, 1) < -2;
 					return Vd && G1;
 				`,
 				weight: -1,
 				policy: "留",
 				description: "连续多日交易量缩小，并昨日下跌",
-				presage: "今日看跌，近日看跌，后市横盘"
+				presage: "今日看跌，近日看跌，后市大跌"
 			},
 			{
 				name: "跳空高开",
@@ -352,7 +352,7 @@ class Stock {
 				filter: "阳奉阴违",
 				policy: "卖",
 				description: "大涨之后，次日出现盖住大涨最高价的大阴线",
-				presage: "今日看跌，近日大跌，后市横盘"
+				presage: "今日看跌，近日看跌，后市横盘"
 			},
 			{
 				name: "曙光初现",

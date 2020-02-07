@@ -7,10 +7,7 @@
  * @param {Number} n 幅度
  * @return {Number} 判断正确返回1,否则返回0
  */
-module.exports = function STAR(open, close, heig, low, n) {
-	if (!n) {
-		n = 0.02;
-	}
+module.exports = function STAR(open, close, heig, low, n = 0.02) {
 	if (heig > open && heig > close) {
 		if (low < open && low < close) {
 			if (close <= open * (1 + n) && close >= open * (1 - n)) {

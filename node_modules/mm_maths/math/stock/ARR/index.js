@@ -5,5 +5,6 @@
  * @return {Array} 返回数组
  */
 module.exports = function ARR(arr, n = 0) {
-	return arr.slice(0, arr.length - n);
+	var ar = arr.slice(0, arr.length - n - 1);
+	return ar;
 }

@@ -4,7 +4,7 @@
  * @param {Number} n 前N刻
  * @return {Array} 返回平均值数组
  */
-module.exports = function REF(arr, n) {
+module.exports = function REF(arr, n = 1) {
 	var len = arr.length;
 	if (len <= n) {
 		return 0;

@@ -6,11 +6,8 @@
  * @param {Number} n 幅度
  * @return {Number} 判断正确返回1,否则返回0
  */
-module.exports = function YANG(open, close, chg, n) {
+module.exports = function YANG(open, close, chg, n = 0.02) {
 	if (chg > 0) {
-		if (!n) {
-			n = 0.02;
-		}
 		if (open * (1 + n) <= close) {
 			return 1;
 		}

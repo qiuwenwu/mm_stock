@@ -6,9 +6,9 @@ const min = require('../../array/min');
  * @param {Number} period 周期时长
  * @return {Number}
  */
-module.exports = function LLV(arr, period) {
+module.exports = function LLV(arr, period = 5) {
 	var len = arr.length;
-	if(period > len){
+	if (period > len) {
 		period = len
 	}
 	var ar = arr.slice(0, period);

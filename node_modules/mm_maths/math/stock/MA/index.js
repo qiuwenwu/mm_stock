@@ -14,7 +14,7 @@ function add(arr, i, period) {
  * @param {Number} period 周期
  * @return {Array} 返回平均值数组
  */
-module.exports = function MA(arr, period) {
+module.exports = function MA(arr, period = 5) {
 	if (arr.length < period) {
 		return;
 	}

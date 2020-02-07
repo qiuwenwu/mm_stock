@@ -6,10 +6,7 @@ require('mm_expand')
  * @param {String} key 字段
  * @return {Array} 返回数值数组
  */
-module.exports = function DATE(list, key) {
-	if (!key) {
-		key = "datetime";
-	}
+module.exports = function DATE(list, key = "datetime") {
 	return list.map(function(o) {
 		return o[key].toTime().toStr('yyyy-MM-dd');
 	});

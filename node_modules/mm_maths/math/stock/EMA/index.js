@@ -4,7 +4,7 @@
  * @param {Number} period 周期
  * @return {ar} 返回平均值数组
  */
-module.exports = function EMA(arr, period) {
+module.exports = function EMA(arr, period = 5) {
 	var ar = arr.slice().reverse(),
 		iPos = 0,
 		i, k, ema;
