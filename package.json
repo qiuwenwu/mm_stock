@@ -1,6 +1,6 @@
 {
   "name": "mm_stock",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "这是一个股票分析模块，用于预测和分析股票未来走势。",
   "main": "index.js",
   "scripts": {

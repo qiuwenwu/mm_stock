@@ -133,7 +133,7 @@ class Stock {
 				weight: -2,
 				policy: "卖",
 				description: "连续多日交易量放大，并昨日下跌",
-				presage: "今日大跌，近日看跌，后市横盘"
+				presage: "今日看跌，近日看跌，后市看淡"
 			},
 			{
 				name: "缩量上涨",
@@ -159,7 +159,7 @@ class Stock {
 				weight: -1,
 				policy: "留",
 				description: "连续多日交易量缩小，并昨日下跌",
-				presage: "今日看跌，近日看跌，后市大跌"
+				presage: "今日看跌，近日看淡，后市横盘"
 			},
 			{
 				name: "跳空高开",
