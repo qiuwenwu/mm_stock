@@ -12,7 +12,7 @@ var stock = new Stock();
 function run(arr, d) {
 	var now = new Date();
 	var date = now.addDays(-d);
-	var ar = arr.reverse().slice(0, arr.length - d);
+	var ar = arr.slice(0, arr.length - d).reverse();
 	var vm = {
 		H: 5,
 		L: 6,
@@ -27,7 +27,7 @@ function run(arr, d) {
 }
 
 async function test(marketId) {
-	var num = 360;
+	var num = 560;
 	var hp = new Http();
 	// "https://www.bw.io/exchange/config/controller/website/marketcontroller/getByWebId";
 	var res = await hp.get(`https://www.bw.io/api/data/v1/klines?marketId=${marketId}&type=1D&dataSize=${num}`);

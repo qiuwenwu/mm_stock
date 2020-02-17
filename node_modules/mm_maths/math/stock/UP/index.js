@@ -11,7 +11,7 @@ module.exports = function UP(arr, extent = 0) {
 		var v1 = arr[len - 3];
 		var v2 = arr[len - 2];
 		var v3 = arr[len - 1];
-		if (v3 >= v2 * num && v2 >= v1 * num) {
+		if (v1 * num <= v2 && v2 * num <= v3) {
 			return 1
 		}
 	}

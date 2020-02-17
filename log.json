@@ -1,8 +1,467 @@
 [
     {
+        "weight": -7,
+        "tip": "均线下拐 黄昏之星(预) 阳奉阴违",
+        "datetime": "2018-12-03 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 3,
+            "hold": 0
+        },
+        "presage": {
+            "today": -7,
+            "recently": -4,
+            "next": -1
+        },
+        "predict": "今日大跌，近日大跌，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -6,
+        "tip": "黄昏之星 倾盆大雨",
+        "datetime": "2018-12-04 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 2,
+            "hold": 0
+        },
+        "presage": {
+            "today": -4,
+            "recently": -3,
+            "next": -3
+        },
+        "predict": "今日大跌，近日看跌，后市看跌",
+        "action": "卖出"
+    },
+    {
+        "weight": 1,
+        "tip": "曙光初现",
+        "datetime": "2018-12-05 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 2,
+            "recently": 1,
+            "next": 1
+        },
+        "predict": "今日看好，近日横盘，后市横盘",
+        "action": "留守"
+    },
+    {
+        "weight": -4,
+        "tip": "均线死叉 均线空头",
+        "datetime": "2018-12-06 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 2,
+            "hold": 0
+        },
+        "presage": {
+            "today": -4,
+            "recently": -3,
+            "next": -1
+        },
+        "predict": "今日大跌，近日看跌，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -5,
+        "tip": "均线死叉 均线空头 三只乌鸦(预)",
+        "datetime": "2018-12-07 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 3,
+            "hold": 0
+        },
+        "presage": {
+            "today": -7,
+            "recently": -5,
+            "next": -1
+        },
+        "predict": "今日大跌，近日大跌，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -2,
+        "tip": "均线空头 三只乌鸦",
+        "datetime": "2018-12-08 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 2,
+            "hold": 0
+        },
+        "presage": {
+            "today": -3,
+            "recently": -2,
+            "next": 0
+        },
+        "predict": "今日看跌，近日看淡，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": 3,
+        "tip": "均线空头 早晨之星(预)",
+        "datetime": "2018-12-09 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": 2,
+            "recently": 1,
+            "next": 1
+        },
+        "predict": "今日看好，近日横盘，后市横盘",
+        "action": "留守"
+    },
+    {
+        "weight": 3,
+        "tip": "均线空头 早晨之星",
+        "datetime": "2018-12-10 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 1
+        },
+        "predict": "今日看好，近日横盘，后市横盘",
+        "action": "留守"
+    },
+    {
+        "weight": -5,
+        "tip": "缩量下跌 均线空头 乌云盖顶",
+        "datetime": "2018-12-11 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 2,
+            "hold": 1
+        },
+        "presage": {
+            "today": -4,
+            "recently": -3,
+            "next": 0
+        },
+        "predict": "今日大跌，近日看跌，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -2,
+        "tip": "缩量下跌 均线空头",
+        "datetime": "2018-12-12 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 1
+        },
+        "presage": {
+            "today": -2,
+            "recently": -2,
+            "next": 0
+        },
+        "predict": "今日看淡，近日看淡，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": 1,
+        "tip": "均线空头 旭日东升",
+        "datetime": "2018-12-13 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 1
+        },
+        "predict": "今日看好，近日横盘，后市横盘",
+        "action": "留守"
+    },
+    {
+        "weight": -3,
+        "tip": "均线下拐 均线空头",
+        "datetime": "2018-12-14 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 2,
+            "hold": 0
+        },
+        "presage": {
+            "today": -3,
+            "recently": -3,
+            "next": -1
+        },
+        "predict": "今日看跌，近日看跌，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2018-12-15 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2018-12-16 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
         "weight": 0,
         "tip": "",
-        "datetime": "2019-04-14 00:00:00",
+        "datetime": "2018-12-17 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 2,
+        "tip": "均线金叉(预) 烈日当空",
+        "datetime": "2018-12-18 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": 2,
+            "recently": 1,
+            "next": -1
+        },
+        "predict": "今日看好，近日横盘，后市横盘",
+        "action": "留守"
+    },
+    {
+        "weight": 3,
+        "tip": "均线金叉",
+        "datetime": "2018-12-19 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 3,
+            "recently": 2,
+            "next": 1
+        },
+        "predict": "今日看涨，近日看好，后市横盘",
+        "action": "买入"
+    },
+    {
+        "weight": 2,
+        "tip": "均线金叉 烈日当空",
+        "datetime": "2018-12-20 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": 2,
+            "recently": 1,
+            "next": -1
+        },
+        "predict": "今日看好，近日横盘，后市横盘",
+        "action": "留守"
+    },
+    {
+        "weight": -1,
+        "tip": "烈日当空",
+        "datetime": "2018-12-21 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": -2
+        },
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
+    },
+    {
+        "weight": -5,
+        "tip": "黄昏之星(预) 阳奉阴违",
+        "datetime": "2018-12-22 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 2,
+            "hold": 0
+        },
+        "presage": {
+            "today": -5,
+            "recently": -2,
+            "next": 0
+        },
+        "predict": "今日大跌，近日看淡，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -2,
+        "tip": "倾盆大雨",
+        "datetime": "2018-12-23 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -2,
+            "recently": -1,
+            "next": -2
+        },
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
+    },
+    {
+        "weight": 2,
+        "tip": "缩量上涨",
+        "datetime": "2018-12-24 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 2,
+            "recently": 1,
+            "next": 1
+        },
+        "predict": "今日看好，近日横盘，后市横盘",
+        "action": "买入"
+    },
+    {
+        "weight": -1,
+        "tip": "均线下拐 恋人并肩",
+        "datetime": "2018-12-25 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -4,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日大跌，近日不明，后市不明",
+        "action": "警惕"
+    },
+    {
+        "weight": -2,
+        "tip": "倾盆大雨",
+        "datetime": "2018-12-26 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -2,
+            "recently": -1,
+            "next": -2
+        },
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2018-12-27 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": -3,
+        "tip": "均线死叉",
+        "datetime": "2018-12-28 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -3,
+            "recently": -2,
+            "next": -1
+        },
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -3,
+        "tip": "均线死叉",
+        "datetime": "2018-12-29 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -3,
+            "recently": -2,
+            "next": -1
+        },
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2018-12-30 00:00:00",
         "policy": {
             "buy": 0,
             "sell": 0,
@@ -19,7 +478,7 @@
     {
         "weight": 0,
         "tip": "",
-        "datetime": "2019-04-15 00:00:00",
+        "datetime": "2018-12-31 00:00:00",
         "policy": {
             "buy": 0,
             "sell": 0,
@@ -32,6 +491,1791 @@
         },
         "predict": "今日不明，近日不明，后市不明",
         "action": "观察"
+    },
+    {
+        "weight": -2,
+        "tip": "均线下拐",
+        "datetime": "2019-01-01 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -2,
+            "recently": -2,
+            "next": -1
+        },
+        "predict": "今日看淡，近日看淡，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-01-02 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 0,
+        "tip": "均线下拐 缩量上涨",
+        "datetime": "2019-01-03 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日不明，近日横盘，后市不明",
+        "action": "警惕"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-01-04 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": -2,
+        "tip": "倾盆大雨",
+        "datetime": "2019-01-05 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -2,
+            "recently": -1,
+            "next": -2
+        },
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
+    },
+    {
+        "weight": 3,
+        "tip": "均线金叉",
+        "datetime": "2019-01-06 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 3,
+            "recently": 2,
+            "next": 1
+        },
+        "predict": "今日看涨，近日看好，后市横盘",
+        "action": "买入"
+    },
+    {
+        "weight": 3,
+        "tip": "均线金叉",
+        "datetime": "2019-01-07 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 3,
+            "recently": 2,
+            "next": 1
+        },
+        "predict": "今日看涨，近日看好，后市横盘",
+        "action": "买入"
+    },
+    {
+        "weight": 1,
+        "tip": "放量上涨",
+        "datetime": "2019-01-08 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日看好，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-01-09 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": -2,
+        "tip": "均线下拐",
+        "datetime": "2019-01-10 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -2,
+            "recently": -2,
+            "next": -1
+        },
+        "predict": "今日看淡，近日看淡，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -5,
+        "tip": "均线死叉(预) 倾盆大雨",
+        "datetime": "2019-01-11 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 2,
+            "hold": 0
+        },
+        "presage": {
+            "today": -5,
+            "recently": -3,
+            "next": -3
+        },
+        "predict": "今日大跌，近日看跌，后市看跌",
+        "action": "卖出"
+    },
+    {
+        "weight": -5,
+        "tip": "均线死叉 倾盆大雨",
+        "datetime": "2019-01-12 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 2,
+            "hold": 0
+        },
+        "presage": {
+            "today": -5,
+            "recently": -3,
+            "next": -3
+        },
+        "predict": "今日大跌，近日看跌，后市看跌",
+        "action": "卖出"
+    },
+    {
+        "weight": -3,
+        "tip": "均线死叉",
+        "datetime": "2019-01-13 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -3,
+            "recently": -2,
+            "next": -1
+        },
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-01-14 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-01-15 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-01-16 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-01-17 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-01-18 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-01-19 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -2,
+        "tip": "均线下拐",
+        "datetime": "2019-01-20 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -2,
+            "recently": -2,
+            "next": -1
+        },
+        "predict": "今日看淡，近日看淡，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-01-21 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -4,
+        "tip": "均线死叉 均线空头",
+        "datetime": "2019-01-22 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 2,
+            "hold": 0
+        },
+        "presage": {
+            "today": -4,
+            "recently": -3,
+            "next": -1
+        },
+        "predict": "今日大跌，近日看跌，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-01-23 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-01-24 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-01-25 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-01-26 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -3,
+        "tip": "均线下拐 均线空头",
+        "datetime": "2019-01-27 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 2,
+            "hold": 0
+        },
+        "presage": {
+            "today": -3,
+            "recently": -3,
+            "next": -1
+        },
+        "predict": "今日看跌，近日看跌，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-01-28 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-01-29 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-01-30 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-01-31 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-02-01 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-02-02 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-02-03 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -3,
+        "tip": "均线下拐 均线空头",
+        "datetime": "2019-02-04 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 2,
+            "hold": 0
+        },
+        "presage": {
+            "today": -3,
+            "recently": -3,
+            "next": -1
+        },
+        "predict": "今日看跌，近日看跌，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-02-05 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": -2,
+        "tip": "均线下拐",
+        "datetime": "2019-02-06 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -2,
+            "recently": -2,
+            "next": -1
+        },
+        "predict": "今日看淡，近日看淡，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -4,
+        "tip": "均线死叉 均线空头",
+        "datetime": "2019-02-07 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 2,
+            "hold": 0
+        },
+        "presage": {
+            "today": -4,
+            "recently": -3,
+            "next": -1
+        },
+        "predict": "今日大跌，近日看跌，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-02-08 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 3,
+        "tip": "均线金叉",
+        "datetime": "2019-02-09 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 3,
+            "recently": 2,
+            "next": 1
+        },
+        "predict": "今日看涨，近日看好，后市横盘",
+        "action": "买入"
+    },
+    {
+        "weight": 3,
+        "tip": "均线金叉 恋人并肩 烈日当空",
+        "datetime": "2019-02-10 00:00:00",
+        "policy": {
+            "buy": 2,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 3,
+            "next": 0
+        },
+        "predict": "今日不明，近日看涨，后市不明",
+        "action": "买入"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-02-11 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-02-12 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-02-13 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": -2,
+        "tip": "均线下拐",
+        "datetime": "2019-02-14 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -2,
+            "recently": -2,
+            "next": -1
+        },
+        "predict": "今日看淡，近日看淡，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-02-15 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-02-16 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-02-17 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-02-18 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 4,
+        "tip": "均线金叉 跳空高开",
+        "datetime": "2019-02-19 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 5,
+            "recently": 3,
+            "next": 2
+        },
+        "predict": "今日大涨，近日看涨，后市看好",
+        "action": "买入"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-02-20 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-02-21 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-02-22 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-02-23 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": -2,
+        "tip": "均线下拐",
+        "datetime": "2019-02-24 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -2,
+            "recently": -2,
+            "next": -1
+        },
+        "predict": "今日看淡，近日看淡，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -2,
+        "tip": "倾盆大雨",
+        "datetime": "2019-02-25 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -2,
+            "recently": -1,
+            "next": -2
+        },
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-02-26 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": -3,
+        "tip": "均线死叉",
+        "datetime": "2019-02-27 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -3,
+            "recently": -2,
+            "next": -1
+        },
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -3,
+        "tip": "均线死叉",
+        "datetime": "2019-02-28 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -3,
+            "recently": -2,
+            "next": -1
+        },
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-03-01 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-03-02 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": -2,
+        "tip": "均线下拐",
+        "datetime": "2019-03-03 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -2,
+            "recently": -2,
+            "next": -1
+        },
+        "predict": "今日看淡，近日看淡，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-03-04 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": -2,
+        "tip": "倾盆大雨",
+        "datetime": "2019-03-05 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -2,
+            "recently": -1,
+            "next": -2
+        },
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
+    },
+    {
+        "weight": 6,
+        "tip": "旭日东升 蛟龙出海",
+        "datetime": "2019-03-06 00:00:00",
+        "policy": {
+            "buy": 2,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 5,
+            "recently": 5,
+            "next": 3
+        },
+        "predict": "今日大涨，近日大涨，后市看涨",
+        "action": "买入"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-03-07 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 4,
+        "tip": "均线金叉 均线多头",
+        "datetime": "2019-03-08 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 4,
+            "recently": 3,
+            "next": 1
+        },
+        "predict": "今日看涨，近日看涨，后市横盘",
+        "action": "买入"
+    },
+    {
+        "weight": 4,
+        "tip": "均线金叉 均线多头",
+        "datetime": "2019-03-09 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 4,
+            "recently": 3,
+            "next": 1
+        },
+        "predict": "今日看涨，近日看涨，后市横盘",
+        "action": "买入"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-03-10 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": -1,
+        "tip": "均线下拐 均线多头",
+        "datetime": "2019-03-11 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 1
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": -1
+        },
+        "predict": "今日看淡，近日横盘，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-03-12 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-03-13 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": -3,
+        "tip": "均线死叉",
+        "datetime": "2019-03-14 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -3,
+            "recently": -2,
+            "next": -1
+        },
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-03-15 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 4,
+        "tip": "均线金叉 均线多头",
+        "datetime": "2019-03-16 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 4,
+            "recently": 3,
+            "next": 1
+        },
+        "predict": "今日看涨，近日看涨，后市横盘",
+        "action": "买入"
+    },
+    {
+        "weight": 4,
+        "tip": "均线金叉 均线多头",
+        "datetime": "2019-03-17 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 4,
+            "recently": 3,
+            "next": 1
+        },
+        "predict": "今日看涨，近日看涨，后市横盘",
+        "action": "买入"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-03-18 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-03-19 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-03-20 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": -1,
+        "tip": "均线下拐 均线多头",
+        "datetime": "2019-03-21 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 1
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": -1
+        },
+        "predict": "今日看淡，近日横盘，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-03-22 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-03-23 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": -1,
+        "tip": "均线下拐 均线多头",
+        "datetime": "2019-03-24 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 1
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": -1
+        },
+        "predict": "今日看淡，近日横盘，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -3,
+        "tip": "均线死叉",
+        "datetime": "2019-03-25 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -3,
+            "recently": -2,
+            "next": -1
+        },
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -3,
+        "tip": "均线死叉",
+        "datetime": "2019-03-26 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -3,
+            "recently": -2,
+            "next": -1
+        },
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": 0,
+        "tip": "",
+        "datetime": "2019-03-27 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
+    },
+    {
+        "weight": 3,
+        "tip": "蜻蜓点水",
+        "datetime": "2019-03-28 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 3,
+            "recently": 2,
+            "next": 1
+        },
+        "predict": "今日看涨，近日看好，后市横盘",
+        "action": "买入"
+    },
+    {
+        "weight": 4,
+        "tip": "均线金叉 均线多头",
+        "datetime": "2019-03-29 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 4,
+            "recently": 3,
+            "next": 1
+        },
+        "predict": "今日看涨，近日看涨，后市横盘",
+        "action": "买入"
+    },
+    {
+        "weight": 4,
+        "tip": "均线金叉 均线多头",
+        "datetime": "2019-03-30 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 4,
+            "recently": 3,
+            "next": 1
+        },
+        "predict": "今日看涨，近日看涨，后市横盘",
+        "action": "买入"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-03-31 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-04-01 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-04-02 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 2,
+        "tip": "放量上涨 均线多头",
+        "datetime": "2019-04-03 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 2
+        },
+        "presage": {
+            "today": 2,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "放量上涨 均线多头 烈日当空",
+        "datetime": "2019-04-04 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 2
+        },
+        "presage": {
+            "today": 1,
+            "recently": 0,
+            "next": -2
+        },
+        "predict": "今日看好，近日不明，后市看淡",
+        "action": "观察"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-04-05 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-04-06 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-04-07 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-04-08 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-04-09 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-04-10 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": -1,
+        "tip": "均线下拐 均线多头",
+        "datetime": "2019-04-11 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 1
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": -1
+        },
+        "predict": "今日看淡，近日横盘，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线多头 倾盆大雨",
+        "datetime": "2019-04-12 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 1
+        },
+        "presage": {
+            "today": -1,
+            "recently": 0,
+            "next": -2
+        },
+        "predict": "今日看淡，近日不明，后市看淡",
+        "action": "卖出"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-04-13 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": -3,
+        "tip": "均线死叉",
+        "datetime": "2019-04-14 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -3,
+            "recently": -2,
+            "next": -1
+        },
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -3,
+        "tip": "均线死叉",
+        "datetime": "2019-04-15 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -3,
+            "recently": -2,
+            "next": -1
+        },
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
         "weight": 0,
@@ -68,41 +2312,41 @@
         "action": "观察"
     },
     {
-        "weight": 2,
-        "tip": "均线多头",
+        "weight": 4,
+        "tip": "均线金叉 均线多头",
         "datetime": "2019-04-18 00:00:00",
         "policy": {
-            "buy": 0,
+            "buy": 1,
             "sell": 0,
             "hold": 1
         },
         "presage": {
-            "today": 2,
-            "recently": 1,
+            "today": 4,
+            "recently": 3,
             "next": 1
         },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "留守"
+        "predict": "今日看涨，近日看涨，后市横盘",
+        "action": "买入"
     },
     {
-        "weight": 2,
-        "tip": "均线多头",
+        "weight": 4,
+        "tip": "均线金叉 均线多头",
         "datetime": "2019-04-19 00:00:00",
         "policy": {
-            "buy": 0,
+            "buy": 1,
             "sell": 0,
             "hold": 1
         },
         "presage": {
-            "today": 2,
-            "recently": 1,
+            "today": 4,
+            "recently": 3,
             "next": 1
         },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "留守"
+        "predict": "今日看涨，近日看涨，后市横盘",
+        "action": "买入"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-04-20 00:00:00",
         "policy": {
@@ -111,15 +2355,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-04-21 00:00:00",
         "policy": {
@@ -128,15 +2372,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-04-22 00:00:00",
         "policy": {
@@ -145,15 +2389,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-04-23 00:00:00",
         "policy": {
@@ -162,15 +2406,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-04-24 00:00:00",
         "policy": {
@@ -179,15 +2423,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-04-25 00:00:00",
         "policy": {
@@ -196,15 +2440,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-04-26 00:00:00",
         "policy": {
@@ -213,32 +2457,32 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
-        "tip": "均线多头",
+        "weight": -4,
+        "tip": "均线死叉(预) 均线多头 倾盆大雨",
         "datetime": "2019-04-27 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 2,
             "hold": 1
         },
         "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
+            "today": -4,
+            "recently": -2,
+            "next": -3
         },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "留守"
+        "predict": "今日大跌，近日看淡，后市看跌",
+        "action": "卖出"
     },
     {
-        "weight": 0,
+        "weight": -1,
         "tip": "均线下拐 均线多头",
         "datetime": "2019-04-28 00:00:00",
         "policy": {
@@ -247,46 +2491,46 @@
             "hold": 1
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 1
+            "today": -1,
+            "recently": -1,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市横盘",
+        "predict": "今日看淡，近日横盘，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -3,
+        "tip": "均线死叉",
         "datetime": "2019-04-29 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -3,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -3,
+        "tip": "均线死叉",
         "datetime": "2019-04-30 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -3,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
         "weight": 0,
@@ -324,7 +2568,7 @@
     },
     {
         "weight": 4,
-        "tip": "缩量上涨 均线多头",
+        "tip": "均线金叉 均线多头",
         "datetime": "2019-05-03 00:00:00",
         "policy": {
             "buy": 1,
@@ -332,49 +2576,49 @@
             "hold": 1
         },
         "presage": {
-            "today": 5,
+            "today": 4,
             "recently": 3,
             "next": 1
         },
-        "predict": "今日大涨，近日看涨，后市横盘",
+        "predict": "今日看涨，近日看涨，后市横盘",
         "action": "买入"
     },
     {
-        "weight": 2,
-        "tip": "均线多头",
+        "weight": 3,
+        "tip": "均线金叉 均线多头 烈日当空",
         "datetime": "2019-05-04 00:00:00",
         "policy": {
-            "buy": 0,
-            "sell": 0,
+            "buy": 1,
+            "sell": 1,
             "hold": 1
         },
         "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
+            "today": 3,
+            "recently": 2,
+            "next": -1
         },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "留守"
+        "predict": "今日看涨，近日看好，后市横盘",
+        "action": "观察"
     },
     {
-        "weight": -1,
-        "tip": "放量下跌 均线多头 阳奉阴违",
+        "weight": 0,
+        "tip": "均线多头 阳奉阴违",
         "datetime": "2019-05-05 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 2,
+            "sell": 1,
             "hold": 1
         },
         "presage": {
-            "today": -2,
-            "recently": -1,
+            "today": -1,
+            "recently": 1,
             "next": 1
         },
         "predict": "今日看淡，近日横盘，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-05-06 00:00:00",
         "policy": {
@@ -383,15 +2627,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-05-07 00:00:00",
         "policy": {
@@ -400,15 +2644,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-05-08 00:00:00",
         "policy": {
@@ -417,15 +2661,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-05-09 00:00:00",
         "policy": {
@@ -434,15 +2678,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-05-10 00:00:00",
         "policy": {
@@ -451,15 +2695,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-05-11 00:00:00",
         "policy": {
@@ -468,32 +2712,32 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
-        "tip": "均线多头",
+        "weight": 0,
+        "tip": "均线多头 烈日当空",
         "datetime": "2019-05-12 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 1
         },
         "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
+            "today": 0,
+            "recently": 0,
+            "next": -2
         },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "留守"
+        "predict": "今日不明，近日不明，后市看淡",
+        "action": "卖出"
     },
     {
-        "weight": 1,
+        "weight": 0,
         "tip": "均线多头 阳奉阴违",
         "datetime": "2019-05-13 00:00:00",
         "policy": {
@@ -502,15 +2746,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 0,
+            "today": -1,
             "recently": 1,
-            "next": 2
+            "next": 1
         },
-        "predict": "今日不明，近日横盘，后市看好",
+        "predict": "今日看淡，近日横盘，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": 3,
+        "weight": 2,
         "tip": "放量上涨 均线多头",
         "datetime": "2019-05-14 00:00:00",
         "policy": {
@@ -519,15 +2763,15 @@
             "hold": 2
         },
         "presage": {
-            "today": 4,
-            "recently": 2,
-            "next": 1
+            "today": 2,
+            "recently": 1,
+            "next": 0
         },
-        "predict": "今日看涨，近日看好，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-05-15 00:00:00",
         "policy": {
@@ -536,15 +2780,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-05-16 00:00:00",
         "policy": {
@@ -553,15 +2797,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-05-17 00:00:00",
         "policy": {
@@ -570,15 +2814,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 0,
+        "weight": -1,
         "tip": "均线下拐 均线多头",
         "datetime": "2019-05-18 00:00:00",
         "policy": {
@@ -587,32 +2831,32 @@
             "hold": 1
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 1
+            "today": -1,
+            "recently": -1,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市横盘",
+        "predict": "今日看淡，近日横盘，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": 3,
-        "tip": "放量上涨 均线多头",
+        "weight": 1,
+        "tip": "均线多头",
         "datetime": "2019-05-19 00:00:00",
         "policy": {
             "buy": 0,
             "sell": 0,
-            "hold": 2
+            "hold": 1
         },
         "presage": {
-            "today": 4,
-            "recently": 2,
-            "next": 1
+            "today": 1,
+            "recently": 1,
+            "next": 0
         },
-        "predict": "今日看涨，近日看好，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 0,
+        "weight": -1,
         "tip": "均线下拐 均线多头",
         "datetime": "2019-05-20 00:00:00",
         "policy": {
@@ -621,32 +2865,32 @@
             "hold": 1
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 1
+            "today": -1,
+            "recently": -1,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市横盘",
+        "predict": "今日看淡，近日横盘，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": -1,
-        "tip": "阳奉阴违",
+        "weight": -4,
+        "tip": "均线死叉 阳奉阴违",
         "datetime": "2019-05-21 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 1,
+            "sell": 2,
             "hold": 0
         },
         "presage": {
-            "today": -2,
-            "recently": 0,
-            "next": 1
+            "today": -5,
+            "recently": -2,
+            "next": 0
         },
-        "predict": "今日看淡，近日不明，后市横盘",
+        "predict": "今日大跌，近日看淡，后市不明",
         "action": "卖出"
     },
     {
-        "weight": 4,
+        "weight": 3,
         "tip": "均线上拐 均线多头",
         "datetime": "2019-05-22 00:00:00",
         "policy": {
@@ -655,7 +2899,7 @@
             "hold": 1
         },
         "presage": {
-            "today": 4,
+            "today": 3,
             "recently": 2,
             "next": 1
         },
@@ -680,24 +2924,24 @@
         "action": "观察"
     },
     {
-        "weight": 1,
-        "tip": "缩量下跌 均线多头",
+        "weight": -1,
+        "tip": "均线多头 倾盆大雨",
         "datetime": "2019-05-24 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
-            "hold": 2
+            "sell": 1,
+            "hold": 1
         },
         "presage": {
-            "today": 0,
+            "today": -1,
             "recently": 0,
-            "next": 1
+            "next": -2
         },
-        "predict": "今日不明，近日不明，后市横盘",
-        "action": "观察"
+        "predict": "今日看淡，近日不明，后市看淡",
+        "action": "卖出"
     },
     {
-        "weight": 4,
+        "weight": 3,
         "tip": "均线多头 旭日东升",
         "datetime": "2019-05-25 00:00:00",
         "policy": {
@@ -706,11 +2950,11 @@
             "hold": 1
         },
         "presage": {
-            "today": 4,
+            "today": 3,
             "recently": 3,
-            "next": 2
+            "next": 1
         },
-        "predict": "今日看涨，近日看涨，后市看好",
+        "predict": "今日看涨，近日看涨，后市横盘",
         "action": "买入"
     },
     {
@@ -731,7 +2975,7 @@
         "action": "观察"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-05-27 00:00:00",
         "policy": {
@@ -740,32 +2984,32 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 4,
-        "tip": "缩量上涨 均线多头",
+        "weight": 1,
+        "tip": "均线多头",
         "datetime": "2019-05-28 00:00:00",
         "policy": {
-            "buy": 1,
+            "buy": 0,
             "sell": 0,
             "hold": 1
         },
         "presage": {
-            "today": 5,
-            "recently": 3,
-            "next": 1
+            "today": 1,
+            "recently": 1,
+            "next": 0
         },
-        "predict": "今日大涨，近日看涨，后市横盘",
-        "action": "买入"
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
     },
     {
-        "weight": 1,
+        "weight": 0,
         "tip": "均线多头 阳奉阴违",
         "datetime": "2019-05-29 00:00:00",
         "policy": {
@@ -774,15 +3018,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 0,
+            "today": -1,
             "recently": 1,
-            "next": 2
+            "next": 1
         },
-        "predict": "今日不明，近日横盘，后市看好",
+        "predict": "今日看淡，近日横盘，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-05-30 00:00:00",
         "policy": {
@@ -791,15 +3035,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-05-31 00:00:00",
         "policy": {
@@ -808,15 +3052,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 0,
+        "weight": -1,
         "tip": "均线下拐 均线多头",
         "datetime": "2019-06-01 00:00:00",
         "policy": {
@@ -825,15 +3069,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 1
+            "today": -1,
+            "recently": -1,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市横盘",
+        "predict": "今日看淡，近日横盘，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-06-02 00:00:00",
         "policy": {
@@ -842,15 +3086,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2019-06-03 00:00:00",
         "policy": {
@@ -859,62 +3103,62 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": -1,
-        "tip": "缩量下跌",
+        "weight": -5,
+        "tip": "均线死叉 倾盆大雨",
         "datetime": "2019-06-04 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
-            "hold": 1
-        },
-        "presage": {
-            "today": -2,
-            "recently": -1,
-            "next": 0
-        },
-        "predict": "今日看淡，近日横盘，后市不明",
-        "action": "警惕"
-    },
-    {
-        "weight": -2,
-        "tip": "缩量下跌 三只乌鸦(预)",
-        "datetime": "2019-06-05 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 1,
-            "hold": 1
+            "sell": 2,
+            "hold": 0
         },
         "presage": {
             "today": -5,
             "recently": -3,
-            "next": 0
+            "next": -3
         },
-        "predict": "今日大跌，近日看跌，后市不明",
+        "predict": "今日大跌，近日看跌，后市看跌",
         "action": "卖出"
     },
     {
-        "weight": -1,
-        "tip": "三只乌鸦",
-        "datetime": "2019-06-06 00:00:00",
+        "weight": -4,
+        "tip": "均线死叉 三只乌鸦(预)",
+        "datetime": "2019-06-05 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 1,
+            "sell": 2,
             "hold": 0
         },
         "presage": {
-            "today": -2,
-            "recently": 0,
+            "today": -6,
+            "recently": -4,
             "next": -1
         },
-        "predict": "今日看淡，近日不明，后市横盘",
+        "predict": "今日大跌，近日大跌，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -3,
+        "tip": "三只乌鸦 倾盆大雨",
+        "datetime": "2019-06-06 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 2,
+            "hold": 0
+        },
+        "presage": {
+            "today": -4,
+            "recently": -2,
+            "next": -2
+        },
+        "predict": "今日大跌，近日看淡，后市看淡",
         "action": "卖出"
     },
     {
@@ -969,38 +3213,38 @@
         "action": "观察"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -2,
+        "tip": "倾盆大雨",
         "datetime": "2019-06-10 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -2,
+            "recently": -1,
+            "next": -2
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -2,
+        "tip": "均线下拐",
         "datetime": "2019-06-11 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -2,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看淡，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
         "weight": 0,
@@ -1020,8 +3264,8 @@
         "action": "观察"
     },
     {
-        "weight": 2,
-        "tip": "缩量上涨",
+        "weight": 4,
+        "tip": "蛟龙出海",
         "datetime": "2019-06-13 00:00:00",
         "policy": {
             "buy": 1,
@@ -1030,339 +3274,16 @@
         },
         "presage": {
             "today": 3,
-            "recently": 2,
-            "next": 0
-        },
-        "predict": "今日看涨，近日看好，后市不明",
-        "action": "买入"
-    },
-    {
-        "weight": 0,
-        "tip": "",
-        "datetime": "2019-06-14 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 0
-        },
-        "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
-        },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
-    },
-    {
-        "weight": 4,
-        "tip": "缩量上涨 旱地拔葱",
-        "datetime": "2019-06-15 00:00:00",
-        "policy": {
-            "buy": 2,
-            "sell": 0,
-            "hold": 0
-        },
-        "presage": {
-            "today": 5,
             "recently": 3,
-            "next": 1
-        },
-        "predict": "今日大涨，近日看涨，后市横盘",
-        "action": "买入"
-    },
-    {
-        "weight": 2,
-        "tip": "均线多头",
-        "datetime": "2019-06-16 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 1
-        },
-        "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
-        },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "留守"
-    },
-    {
-        "weight": 2,
-        "tip": "均线多头",
-        "datetime": "2019-06-17 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 1
-        },
-        "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
-        },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "留守"
-    },
-    {
-        "weight": 1,
-        "tip": "均线多头 阳奉阴违",
-        "datetime": "2019-06-18 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 1,
-            "hold": 1
-        },
-        "presage": {
-            "today": 0,
-            "recently": 1,
             "next": 2
         },
-        "predict": "今日不明，近日横盘，后市看好",
-        "action": "卖出"
-    },
-    {
-        "weight": 2,
-        "tip": "均线多头",
-        "datetime": "2019-06-19 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 1
-        },
-        "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
-        },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "留守"
-    },
-    {
-        "weight": 2,
-        "tip": "均线多头",
-        "datetime": "2019-06-20 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 1
-        },
-        "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
-        },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "留守"
+        "predict": "今日看涨，近日看涨，后市看好",
+        "action": "买入"
     },
     {
         "weight": 3,
-        "tip": "放量上涨 均线多头",
-        "datetime": "2019-06-21 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 2
-        },
-        "presage": {
-            "today": 4,
-            "recently": 2,
-            "next": 1
-        },
-        "predict": "今日看涨，近日看好，后市横盘",
-        "action": "留守"
-    },
-    {
-        "weight": 3,
-        "tip": "放量上涨 均线多头",
-        "datetime": "2019-06-22 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 2
-        },
-        "presage": {
-            "today": 4,
-            "recently": 2,
-            "next": 1
-        },
-        "predict": "今日看涨，近日看好，后市横盘",
-        "action": "留守"
-    },
-    {
-        "weight": 2,
-        "tip": "均线多头",
-        "datetime": "2019-06-23 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 1
-        },
-        "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
-        },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "留守"
-    },
-    {
-        "weight": 2,
-        "tip": "均线多头",
-        "datetime": "2019-06-24 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 1
-        },
-        "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
-        },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "留守"
-    },
-    {
-        "weight": 2,
-        "tip": "均线多头",
-        "datetime": "2019-06-25 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 1
-        },
-        "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
-        },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "留守"
-    },
-    {
-        "weight": 2,
-        "tip": "均线多头",
-        "datetime": "2019-06-26 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 1
-        },
-        "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
-        },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "留守"
-    },
-    {
-        "weight": 2,
-        "tip": "均线多头",
-        "datetime": "2019-06-27 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 1
-        },
-        "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
-        },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "留守"
-    },
-    {
-        "weight": -1,
-        "tip": "均线多头 乌云盖顶",
-        "datetime": "2019-06-28 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 1,
-            "hold": 1
-        },
-        "presage": {
-            "today": 0,
-            "recently": -1,
-            "next": 1
-        },
-        "predict": "今日不明，近日横盘，后市横盘",
-        "action": "卖出"
-    },
-    {
-        "weight": 2,
-        "tip": "均线多头",
-        "datetime": "2019-06-29 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 1
-        },
-        "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
-        },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "留守"
-    },
-    {
-        "weight": 0,
-        "tip": "均线下拐 均线多头",
-        "datetime": "2019-06-30 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 1,
-            "hold": 1
-        },
-        "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 1
-        },
-        "predict": "今日不明，近日不明，后市横盘",
-        "action": "卖出"
-    },
-    {
-        "weight": 1,
-        "tip": "缩量下跌 均线多头",
-        "datetime": "2019-07-01 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 2
-        },
-        "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 1
-        },
-        "predict": "今日不明，近日不明，后市横盘",
-        "action": "观察"
-    },
-    {
-        "weight": 0,
-        "tip": "",
-        "datetime": "2019-07-02 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 0
-        },
-        "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
-        },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
-    },
-    {
-        "weight": 3,
-        "tip": "蜻蜓点水(预)",
-        "datetime": "2019-07-03 00:00:00",
+        "tip": "均线金叉",
+        "datetime": "2019-06-14 00:00:00",
         "policy": {
             "buy": 1,
             "sell": 0,
@@ -1371,18 +3292,324 @@
         "presage": {
             "today": 3,
             "recently": 2,
-            "next": 0
+            "next": 1
         },
-        "predict": "今日看涨，近日看好，后市不明",
+        "predict": "今日看涨，近日看好，后市横盘",
+        "action": "买入"
+    },
+    {
+        "weight": 2,
+        "tip": "缩量上涨",
+        "datetime": "2019-06-15 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 2,
+            "recently": 1,
+            "next": 1
+        },
+        "predict": "今日看好，近日横盘，后市横盘",
         "action": "买入"
     },
     {
         "weight": 0,
-        "tip": "",
-        "datetime": "2019-07-04 00:00:00",
+        "tip": "均线多头 烈日当空",
+        "datetime": "2019-06-16 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 1
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": -2
+        },
+        "predict": "今日不明，近日不明，后市看淡",
+        "action": "卖出"
+    },
+    {
+        "weight": 0,
+        "tip": "均线多头 烈日当空",
+        "datetime": "2019-06-17 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 1
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": -2
+        },
+        "predict": "今日不明，近日不明，后市看淡",
+        "action": "卖出"
+    },
+    {
+        "weight": 0,
+        "tip": "均线多头 阳奉阴违",
+        "datetime": "2019-06-18 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 1
+        },
+        "presage": {
+            "today": -1,
+            "recently": 1,
+            "next": 1
+        },
+        "predict": "今日看淡，近日横盘，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-06-19 00:00:00",
         "policy": {
             "buy": 0,
             "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-06-20 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 2,
+        "tip": "放量上涨 均线多头",
+        "datetime": "2019-06-21 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 2
+        },
+        "presage": {
+            "today": 2,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "放量上涨 均线多头 烈日当空",
+        "datetime": "2019-06-22 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 2
+        },
+        "presage": {
+            "today": 1,
+            "recently": 0,
+            "next": -2
+        },
+        "predict": "今日看好，近日不明，后市看淡",
+        "action": "观察"
+    },
+    {
+        "weight": 0,
+        "tip": "均线多头 烈日当空",
+        "datetime": "2019-06-23 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 1
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": -2
+        },
+        "predict": "今日不明，近日不明，后市看淡",
+        "action": "卖出"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-06-24 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-06-25 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-06-26 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 0,
+        "tip": "均线多头 烈日当空",
+        "datetime": "2019-06-27 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 1
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": -2
+        },
+        "predict": "今日不明，近日不明，后市看淡",
+        "action": "卖出"
+    },
+    {
+        "weight": -2,
+        "tip": "均线多头 乌云盖顶",
+        "datetime": "2019-06-28 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 1
+        },
+        "presage": {
+            "today": -1,
+            "recently": 0,
+            "next": 0
+        },
+        "predict": "今日看淡，近日不明，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2019-06-29 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": -1,
+        "tip": "均线下拐 均线多头",
+        "datetime": "2019-06-30 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 1
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": -1
+        },
+        "predict": "今日看淡，近日横盘，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -5,
+        "tip": "均线死叉(预) 缩量下跌 均线多头 倾盆大雨",
+        "datetime": "2019-07-01 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 2,
+            "hold": 2
+        },
+        "presage": {
+            "today": -5,
+            "recently": -3,
+            "next": -3
+        },
+        "predict": "今日大跌，近日看跌，后市看跌",
+        "action": "卖出"
+    },
+    {
+        "weight": -5,
+        "tip": "均线死叉 倾盆大雨",
+        "datetime": "2019-07-02 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 2,
+            "hold": 0
+        },
+        "presage": {
+            "today": -5,
+            "recently": -3,
+            "next": -3
+        },
+        "predict": "今日大跌，近日看跌，后市看跌",
+        "action": "卖出"
+    },
+    {
+        "weight": 0,
+        "tip": "均线死叉 蜻蜓点水(预)",
+        "datetime": "2019-07-03 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
@@ -1392,6 +3619,23 @@
         },
         "predict": "今日不明，近日不明，后市不明",
         "action": "观察"
+    },
+    {
+        "weight": -1,
+        "tip": "烈日当空",
+        "datetime": "2019-07-04 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": -2
+        },
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
     },
     {
         "weight": 0,
@@ -1411,9 +3655,26 @@
         "action": "观察"
     },
     {
+        "weight": -2,
+        "tip": "倾盆大雨",
+        "datetime": "2019-07-06 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -2,
+            "recently": -1,
+            "next": -2
+        },
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
+    },
+    {
         "weight": 0,
         "tip": "",
-        "datetime": "2019-07-06 00:00:00",
+        "datetime": "2019-07-07 00:00:00",
         "policy": {
             "buy": 0,
             "sell": 0,
@@ -1428,75 +3689,58 @@
         "action": "观察"
     },
     {
-        "weight": -3,
-        "tip": "均线死叉(预)",
-        "datetime": "2019-07-07 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 1,
-            "hold": 0
-        },
-        "presage": {
-            "today": -2,
-            "recently": -2,
-            "next": -1
-        },
-        "predict": "今日看淡，近日看淡，后市横盘",
-        "action": "卖出"
-    },
-    {
-        "weight": -1,
-        "tip": "缩量下跌",
+        "weight": 0,
+        "tip": "",
         "datetime": "2019-07-08 00:00:00",
         "policy": {
             "buy": 0,
             "sell": 0,
-            "hold": 1
+            "hold": 0
         },
         "presage": {
-            "today": -2,
-            "recently": -1,
+            "today": 0,
+            "recently": 0,
             "next": 0
         },
-        "predict": "今日看淡，近日横盘，后市不明",
-        "action": "警惕"
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
     },
     {
-        "weight": 4,
-        "tip": "缩量上涨 均线多头",
-        "datetime": "2019-07-09 00:00:00",
-        "policy": {
-            "buy": 1,
-            "sell": 0,
-            "hold": 1
-        },
-        "presage": {
-            "today": 5,
-            "recently": 3,
-            "next": 1
-        },
-        "predict": "今日大涨，近日看涨，后市横盘",
-        "action": "买入"
-    },
-    {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
-        "datetime": "2019-07-10 00:00:00",
+        "datetime": "2019-07-09 00:00:00",
         "policy": {
             "buy": 0,
             "sell": 0,
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": -4,
+        "weight": 0,
+        "tip": "均线多头 烈日当空",
+        "datetime": "2019-07-10 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 1
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": -2
+        },
+        "predict": "今日不明，近日不明，后市看淡",
+        "action": "卖出"
+    },
+    {
+        "weight": -5,
         "tip": "均线下拐 均线多头 黄昏之星(预)",
         "datetime": "2019-07-11 00:00:00",
         "policy": {
@@ -1505,33 +3749,33 @@
             "hold": 1
         },
         "presage": {
-            "today": -3,
+            "today": -4,
             "recently": -3,
-            "next": 1
+            "next": -2
         },
-        "predict": "今日看跌，近日看跌，后市横盘",
+        "predict": "今日大跌，近日看跌，后市看淡",
         "action": "卖出"
     },
     {
-        "weight": -2,
-        "tip": "均线多头 黄昏之星",
+        "weight": -8,
+        "tip": "均线死叉(预) 均线多头 黄昏之星 倾盆大雨",
         "datetime": "2019-07-12 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 1,
+            "sell": 3,
             "hold": 1
         },
         "presage": {
-            "today": -1,
-            "recently": -1,
-            "next": 1
+            "today": -6,
+            "recently": -4,
+            "next": -4
         },
-        "predict": "今日看淡，近日横盘，后市横盘",
+        "predict": "今日大跌，近日大跌，后市大跌",
         "action": "卖出"
     },
     {
-        "weight": -2,
-        "tip": "均线下拐",
+        "weight": -3,
+        "tip": "均线死叉(预)",
         "datetime": "2019-07-13 00:00:00",
         "policy": {
             "buy": 0,
@@ -1539,46 +3783,46 @@
             "hold": 0
         },
         "presage": {
-            "today": -2,
-            "recently": -1,
-            "next": 0
+            "today": -3,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日看淡，近日横盘，后市不明",
+        "predict": "今日看跌，近日看淡，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -3,
+        "tip": "均线死叉",
         "datetime": "2019-07-14 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -3,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
-        "weight": -1,
-        "tip": "缩量下跌",
+        "weight": -5,
+        "tip": "均线死叉 倾盆大雨",
         "datetime": "2019-07-15 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
-            "hold": 1
+            "sell": 2,
+            "hold": 0
         },
         "presage": {
-            "today": -2,
-            "recently": -1,
-            "next": 0
+            "today": -5,
+            "recently": -3,
+            "next": -3
         },
-        "predict": "今日看淡，近日横盘，后市不明",
-        "action": "警惕"
+        "predict": "今日大跌，近日看跌，后市看跌",
+        "action": "卖出"
     },
     {
         "weight": 0,
@@ -1615,21 +3859,21 @@
         "action": "观察"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -2,
+        "tip": "倾盆大雨",
         "datetime": "2019-07-18 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -2,
+            "recently": -1,
+            "next": -2
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
     },
     {
         "weight": 0,
@@ -1649,9 +3893,26 @@
         "action": "观察"
     },
     {
-        "weight": -1,
-        "tip": "阳奉阴违",
+        "weight": 1,
+        "tip": "旱地拔葱 阳奉阴违",
         "datetime": "2019-07-20 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 1,
+            "next": 2
+        },
+        "predict": "今日不明，近日横盘，后市看好",
+        "action": "留守"
+    },
+    {
+        "weight": -2,
+        "tip": "均线下拐",
+        "datetime": "2019-07-21 00:00:00",
         "policy": {
             "buy": 0,
             "sell": 1,
@@ -1659,28 +3920,11 @@
         },
         "presage": {
             "today": -2,
-            "recently": 0,
-            "next": 1
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日看淡，近日不明，后市横盘",
+        "predict": "今日看淡，近日看淡，后市横盘",
         "action": "卖出"
-    },
-    {
-        "weight": 0,
-        "tip": "",
-        "datetime": "2019-07-21 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 0
-        },
-        "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
-        },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
     },
     {
         "weight": 4,
@@ -1694,61 +3938,61 @@
         "presage": {
             "today": 4,
             "recently": 2,
-            "next": 1
+            "next": 2
         },
-        "predict": "今日看涨，近日看好，后市横盘",
+        "predict": "今日看涨，近日看好，后市看好",
         "action": "买入"
     },
     {
-        "weight": -5,
-        "tip": "均线下拐 均线死叉",
+        "weight": -2,
+        "tip": "均线下拐",
         "datetime": "2019-07-23 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 2,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": -5,
-            "recently": -3,
+            "today": -2,
+            "recently": -2,
             "next": -1
         },
-        "predict": "今日大跌，近日看跌，后市横盘",
+        "predict": "今日看淡，近日看淡，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -2,
+        "tip": "倾盆大雨",
         "datetime": "2019-07-24 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -2,
+            "recently": -1,
+            "next": -2
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -3,
+        "tip": "均线死叉",
         "datetime": "2019-07-25 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -3,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
         "weight": 0,
@@ -1785,21 +4029,21 @@
         "action": "观察"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -2,
+        "tip": "倾盆大雨",
         "datetime": "2019-07-28 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -2,
+            "recently": -1,
+            "next": -2
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
     },
     {
         "weight": 0,
@@ -1853,21 +4097,21 @@
         "action": "观察"
     },
     {
-        "weight": 2,
-        "tip": "旱地拔葱",
+        "weight": 0,
+        "tip": "",
         "datetime": "2019-08-01 00:00:00",
         "policy": {
-            "buy": 1,
+            "buy": 0,
             "sell": 0,
             "hold": 0
         },
         "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
+            "today": 0,
+            "recently": 0,
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "买入"
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
     },
     {
         "weight": 3,
@@ -1887,21 +4131,21 @@
         "action": "买入"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": 3,
+        "tip": "均线金叉",
         "datetime": "2019-08-03 00:00:00",
         "policy": {
-            "buy": 0,
+            "buy": 1,
             "sell": 0,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": 3,
+            "recently": 2,
+            "next": 1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看涨，近日看好，后市横盘",
+        "action": "买入"
     },
     {
         "weight": 0,
@@ -1938,21 +4182,21 @@
         "action": "观察"
     },
     {
-        "weight": 2,
-        "tip": "旱地拔葱",
+        "weight": -1,
+        "tip": "烈日当空",
         "datetime": "2019-08-06 00:00:00",
         "policy": {
-            "buy": 1,
-            "sell": 0,
+            "buy": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
+            "today": -1,
+            "recently": -1,
+            "next": -2
         },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "买入"
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
     },
     {
         "weight": -1,
@@ -2016,28 +4260,28 @@
         },
         "presage": {
             "today": -2,
-            "recently": -1,
-            "next": 0
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日看淡，近日横盘，后市不明",
+        "predict": "今日看淡，近日看淡，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -2,
+        "tip": "倾盆大雨",
         "datetime": "2019-08-11 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -2,
+            "recently": -1,
+            "next": -2
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
     },
     {
         "weight": 0,
@@ -2057,38 +4301,38 @@
         "action": "观察"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -3,
+        "tip": "均线死叉",
         "datetime": "2019-08-13 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -3,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
-        "weight": -1,
-        "tip": "缩量下跌",
+        "weight": -5,
+        "tip": "均线死叉 倾盆大雨",
         "datetime": "2019-08-14 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
-            "hold": 1
+            "sell": 2,
+            "hold": 0
         },
         "presage": {
-            "today": -2,
-            "recently": -1,
-            "next": 0
+            "today": -5,
+            "recently": -3,
+            "next": -3
         },
-        "predict": "今日看淡，近日横盘，后市不明",
-        "action": "警惕"
+        "predict": "今日大跌，近日看跌，后市看跌",
+        "action": "卖出"
     },
     {
         "weight": -1,
@@ -2109,7 +4353,7 @@
     },
     {
         "weight": -3,
-        "tip": "放量下跌 三只乌鸦",
+        "tip": "三只乌鸦 倾盆大雨",
         "datetime": "2019-08-16 00:00:00",
         "policy": {
             "buy": 0,
@@ -2125,21 +4369,21 @@
         "action": "卖出"
     },
     {
-        "weight": 1,
-        "tip": "放量上涨",
+        "weight": 0,
+        "tip": "",
         "datetime": "2019-08-17 00:00:00",
         "policy": {
             "buy": 0,
             "sell": 0,
-            "hold": 1
+            "hold": 0
         },
         "presage": {
-            "today": 2,
-            "recently": 1,
+            "today": 0,
+            "recently": 0,
             "next": 0
         },
-        "predict": "今日看好，近日横盘，后市不明",
-        "action": "留守"
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
     },
     {
         "weight": 0,
@@ -2176,43 +4420,9 @@
         "action": "观察"
     },
     {
-        "weight": 2,
-        "tip": "缩量上涨",
-        "datetime": "2019-08-20 00:00:00",
-        "policy": {
-            "buy": 1,
-            "sell": 0,
-            "hold": 0
-        },
-        "presage": {
-            "today": 3,
-            "recently": 2,
-            "next": 0
-        },
-        "predict": "今日看涨，近日看好，后市不明",
-        "action": "买入"
-    },
-    {
-        "weight": -2,
-        "tip": "均线空头",
-        "datetime": "2019-08-21 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 1,
-            "hold": 0
-        },
-        "presage": {
-            "today": -2,
-            "recently": -1,
-            "next": -1
-        },
-        "predict": "今日看淡，近日横盘，后市横盘",
-        "action": "卖出"
-    },
-    {
         "weight": 0,
         "tip": "",
-        "datetime": "2019-08-22 00:00:00",
+        "datetime": "2019-08-20 00:00:00",
         "policy": {
             "buy": 0,
             "sell": 0,
@@ -2227,21 +4437,55 @@
         "action": "观察"
     },
     {
-        "weight": 1,
-        "tip": "均线死叉 早晨之星(预)",
-        "datetime": "2019-08-23 00:00:00",
+        "weight": -3,
+        "tip": "均线下拐 均线空头",
+        "datetime": "2019-08-21 00:00:00",
         "policy": {
-            "buy": 1,
+            "buy": 0,
+            "sell": 2,
+            "hold": 0
+        },
+        "presage": {
+            "today": -3,
+            "recently": -3,
+            "next": -1
+        },
+        "predict": "今日看跌，近日看跌，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -2,
+        "tip": "倾盆大雨",
+        "datetime": "2019-08-22 00:00:00",
+        "policy": {
+            "buy": 0,
             "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 1,
-            "next": -1
+            "today": -2,
+            "recently": -1,
+            "next": -2
         },
-        "predict": "今日不明，近日横盘，后市横盘",
-        "action": "留守"
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
+    },
+    {
+        "weight": 4,
+        "tip": "早晨之星(预)",
+        "datetime": "2019-08-23 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 3,
+            "recently": 2,
+            "next": 1
+        },
+        "predict": "今日看涨，近日看好，后市横盘",
+        "action": "买入"
     },
     {
         "weight": 0,
@@ -2261,21 +4505,21 @@
         "action": "观察"
     },
     {
-        "weight": -1,
-        "tip": "缩量下跌",
+        "weight": -5,
+        "tip": "均线死叉 倾盆大雨",
         "datetime": "2019-08-25 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
-            "hold": 1
+            "sell": 2,
+            "hold": 0
         },
         "presage": {
-            "today": -2,
-            "recently": -1,
-            "next": 0
+            "today": -5,
+            "recently": -3,
+            "next": -3
         },
-        "predict": "今日看淡，近日横盘，后市不明",
-        "action": "警惕"
+        "predict": "今日大跌，近日看跌，后市看跌",
+        "action": "卖出"
     },
     {
         "weight": 0,
@@ -2312,145 +4556,9 @@
         "action": "观察"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -2,
+        "tip": "均线下拐",
         "datetime": "2019-08-28 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 0
-        },
-        "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
-        },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
-    },
-    {
-        "weight": -2,
-        "tip": "均线空头",
-        "datetime": "2019-08-29 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 1,
-            "hold": 0
-        },
-        "presage": {
-            "today": -2,
-            "recently": -1,
-            "next": -1
-        },
-        "predict": "今日看淡，近日横盘，后市横盘",
-        "action": "卖出"
-    },
-    {
-        "weight": -3,
-        "tip": "缩量下跌 均线空头",
-        "datetime": "2019-08-30 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 1,
-            "hold": 1
-        },
-        "presage": {
-            "today": -4,
-            "recently": -2,
-            "next": -1
-        },
-        "predict": "今日大跌，近日看淡，后市横盘",
-        "action": "卖出"
-    },
-    {
-        "weight": -2,
-        "tip": "均线空头",
-        "datetime": "2019-08-31 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 1,
-            "hold": 0
-        },
-        "presage": {
-            "today": -2,
-            "recently": -1,
-            "next": -1
-        },
-        "predict": "今日看淡，近日横盘，后市横盘",
-        "action": "卖出"
-    },
-    {
-        "weight": -2,
-        "tip": "均线空头",
-        "datetime": "2019-09-01 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 1,
-            "hold": 0
-        },
-        "presage": {
-            "today": -2,
-            "recently": -1,
-            "next": -1
-        },
-        "predict": "今日看淡，近日横盘，后市横盘",
-        "action": "卖出"
-    },
-    {
-        "weight": -2,
-        "tip": "均线空头",
-        "datetime": "2019-09-02 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 1,
-            "hold": 0
-        },
-        "presage": {
-            "today": -2,
-            "recently": -1,
-            "next": -1
-        },
-        "predict": "今日看淡，近日横盘，后市横盘",
-        "action": "卖出"
-    },
-    {
-        "weight": 5,
-        "tip": "均线金叉(预) 缩量上涨",
-        "datetime": "2019-09-03 00:00:00",
-        "policy": {
-            "buy": 2,
-            "sell": 0,
-            "hold": 0
-        },
-        "presage": {
-            "today": 5,
-            "recently": 4,
-            "next": 1
-        },
-        "predict": "今日大涨，近日看涨，后市横盘",
-        "action": "买入"
-    },
-    {
-        "weight": 5,
-        "tip": "均线金叉 旱地拔葱",
-        "datetime": "2019-09-04 00:00:00",
-        "policy": {
-            "buy": 2,
-            "sell": 0,
-            "hold": 0
-        },
-        "presage": {
-            "today": 5,
-            "recently": 3,
-            "next": 2
-        },
-        "predict": "今日大涨，近日看涨，后市看好",
-        "action": "买入"
-    },
-    {
-        "weight": -2,
-        "tip": "放量下跌",
-        "datetime": "2019-09-05 00:00:00",
         "policy": {
             "buy": 0,
             "sell": 1,
@@ -2463,6 +4571,142 @@
         },
         "predict": "今日看淡，近日看淡，后市横盘",
         "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-08-29 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-08-30 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-08-31 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-09-01 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-09-02 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": 3,
+        "tip": "均线金叉(预)",
+        "datetime": "2019-09-03 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 3,
+            "recently": 2,
+            "next": 1
+        },
+        "predict": "今日看涨，近日看好，后市横盘",
+        "action": "买入"
+    },
+    {
+        "weight": 2,
+        "tip": "均线金叉 烈日当空",
+        "datetime": "2019-09-04 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": 2,
+            "recently": 1,
+            "next": -1
+        },
+        "predict": "今日看好，近日横盘，后市横盘",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "均线金叉 放量下跌",
+        "datetime": "2019-09-05 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
     },
     {
         "weight": 0,
@@ -2509,10 +4753,10 @@
         },
         "presage": {
             "today": -2,
-            "recently": -1,
-            "next": 0
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日看淡，近日横盘，后市不明",
+        "predict": "今日看淡，近日看淡，后市横盘",
         "action": "卖出"
     },
     {
@@ -2533,55 +4777,55 @@
         "action": "观察"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -3,
+        "tip": "均线死叉(预)",
         "datetime": "2019-09-10 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -3,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -3,
+        "tip": "均线死叉",
         "datetime": "2019-09-11 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -3,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -3,
+        "tip": "均线死叉",
         "datetime": "2019-09-12 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -3,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
         "weight": 0,
@@ -2652,20 +4896,20 @@
         "action": "观察"
     },
     {
-        "weight": -5,
-        "tip": "均线下拐 均线死叉",
+        "weight": -2,
+        "tip": "均线下拐",
         "datetime": "2019-09-17 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 2,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": -5,
-            "recently": -3,
+            "today": -2,
+            "recently": -2,
             "next": -1
         },
-        "predict": "今日大跌，近日看跌，后市横盘",
+        "predict": "今日看淡，近日看淡，后市横盘",
         "action": "卖出"
     },
     {
@@ -2686,38 +4930,38 @@
         "action": "观察"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -3,
+        "tip": "均线死叉",
         "datetime": "2019-09-19 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -3,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -5,
+        "tip": "均线死叉 倾盆大雨",
         "datetime": "2019-09-20 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 2,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -5,
+            "recently": -3,
+            "next": -3
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日大跌，近日看跌，后市看跌",
+        "action": "卖出"
     },
     {
         "weight": 0,
@@ -2737,7 +4981,7 @@
         "action": "观察"
     },
     {
-        "weight": -2,
+        "weight": -1,
         "tip": "均线空头",
         "datetime": "2019-09-22 00:00:00",
         "policy": {
@@ -2746,15 +4990,15 @@
             "hold": 0
         },
         "presage": {
-            "today": -2,
+            "today": -1,
             "recently": -1,
-            "next": -1
+            "next": 0
         },
-        "predict": "今日看淡，近日横盘，后市横盘",
+        "predict": "今日看淡，近日横盘，后市不明",
         "action": "卖出"
     },
     {
-        "weight": -2,
+        "weight": -1,
         "tip": "均线空头",
         "datetime": "2019-09-23 00:00:00",
         "policy": {
@@ -2763,15 +5007,15 @@
             "hold": 0
         },
         "presage": {
-            "today": -2,
+            "today": -1,
             "recently": -1,
-            "next": -1
+            "next": 0
         },
-        "predict": "今日看淡，近日横盘，后市横盘",
+        "predict": "今日看淡，近日横盘，后市不明",
         "action": "卖出"
     },
     {
-        "weight": -2,
+        "weight": -1,
         "tip": "均线空头",
         "datetime": "2019-09-24 00:00:00",
         "policy": {
@@ -2780,17 +5024,34 @@
             "hold": 0
         },
         "presage": {
-            "today": -2,
+            "today": -1,
             "recently": -1,
-            "next": -1
+            "next": 0
         },
-        "predict": "今日看淡，近日横盘，后市横盘",
+        "predict": "今日看淡，近日横盘，后市不明",
         "action": "卖出"
     },
     {
-        "weight": -4,
-        "tip": "放量下跌 均线空头",
+        "weight": -1,
+        "tip": "均线空头",
         "datetime": "2019-09-25 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -2,
+        "tip": "均线空头 三只乌鸦(预)",
+        "datetime": "2019-09-26 00:00:00",
         "policy": {
             "buy": 0,
             "sell": 2,
@@ -2799,30 +5060,13 @@
         "presage": {
             "today": -4,
             "recently": -3,
-            "next": -2
+            "next": 0
         },
-        "predict": "今日大跌，近日看跌，后市看淡",
+        "predict": "今日大跌，近日看跌，后市不明",
         "action": "卖出"
     },
     {
-        "weight": -5,
-        "tip": "放量下跌 均线空头 三只乌鸦(预)",
-        "datetime": "2019-09-26 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 3,
-            "hold": 0
-        },
-        "presage": {
-            "today": -7,
-            "recently": -5,
-            "next": -2
-        },
-        "predict": "今日大跌，近日大跌，后市看淡",
-        "action": "卖出"
-    },
-    {
-        "weight": -5,
+        "weight": -4,
         "tip": "放量下跌 均线空头 三只乌鸦",
         "datetime": "2019-09-27 00:00:00",
         "policy": {
@@ -2831,15 +5075,15 @@
             "hold": 0
         },
         "presage": {
-            "today": -6,
+            "today": -5,
             "recently": -3,
-            "next": -3
+            "next": -1
         },
-        "predict": "今日大跌，近日看跌，后市看跌",
+        "predict": "今日大跌，近日看跌，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": -2,
+        "weight": -1,
         "tip": "均线空头",
         "datetime": "2019-09-28 00:00:00",
         "policy": {
@@ -2848,15 +5092,15 @@
             "hold": 0
         },
         "presage": {
-            "today": -2,
+            "today": -1,
             "recently": -1,
-            "next": -1
+            "next": 0
         },
-        "predict": "今日看淡，近日横盘，后市横盘",
+        "predict": "今日看淡，近日横盘，后市不明",
         "action": "卖出"
     },
     {
-        "weight": -2,
+        "weight": -1,
         "tip": "均线空头",
         "datetime": "2019-09-29 00:00:00",
         "policy": {
@@ -2865,15 +5109,15 @@
             "hold": 0
         },
         "presage": {
-            "today": -2,
+            "today": -1,
             "recently": -1,
-            "next": -1
+            "next": 0
         },
-        "predict": "今日看淡，近日横盘，后市横盘",
+        "predict": "今日看淡，近日横盘，后市不明",
         "action": "卖出"
     },
     {
-        "weight": -2,
+        "weight": -1,
         "tip": "均线空头",
         "datetime": "2019-09-30 00:00:00",
         "policy": {
@@ -2882,32 +5126,32 @@
             "hold": 0
         },
         "presage": {
-            "today": -2,
+            "today": -1,
             "recently": -1,
-            "next": -1
+            "next": 0
         },
-        "predict": "今日看淡，近日横盘，后市横盘",
+        "predict": "今日看淡，近日横盘，后市不明",
         "action": "卖出"
     },
     {
-        "weight": 2,
-        "tip": "均线上拐 缩量上涨 均线空头",
+        "weight": 1,
+        "tip": "均线上拐 均线空头",
         "datetime": "2019-10-01 00:00:00",
         "policy": {
-            "buy": 2,
+            "buy": 1,
             "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 3,
-            "recently": 2,
-            "next": -1
+            "today": 1,
+            "recently": 0,
+            "next": 1
         },
-        "predict": "今日看涨，近日看好，后市横盘",
-        "action": "买入"
+        "predict": "今日看好，近日不明，后市横盘",
+        "action": "观察"
     },
     {
-        "weight": -2,
+        "weight": -1,
         "tip": "均线空头",
         "datetime": "2019-10-02 00:00:00",
         "policy": {
@@ -2916,15 +5160,15 @@
             "hold": 0
         },
         "presage": {
-            "today": -2,
+            "today": -1,
             "recently": -1,
-            "next": -1
+            "next": 0
         },
-        "predict": "今日看淡，近日横盘，后市横盘",
+        "predict": "今日看淡，近日横盘，后市不明",
         "action": "卖出"
     },
     {
-        "weight": -2,
+        "weight": -1,
         "tip": "均线空头",
         "datetime": "2019-10-03 00:00:00",
         "policy": {
@@ -2933,11 +5177,11 @@
             "hold": 0
         },
         "presage": {
-            "today": -2,
+            "today": -1,
             "recently": -1,
-            "next": -1
+            "next": 0
         },
-        "predict": "今日看淡，近日横盘，后市横盘",
+        "predict": "今日看淡，近日横盘，后市不明",
         "action": "卖出"
     },
     {
@@ -2958,55 +5202,55 @@
         "action": "观察"
     },
     {
-        "weight": -5,
-        "tip": "均线下拐 均线死叉",
+        "weight": -2,
+        "tip": "均线下拐",
         "datetime": "2019-10-05 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 2,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": -5,
-            "recently": -3,
+            "today": -2,
+            "recently": -2,
             "next": -1
         },
-        "predict": "今日大跌，近日看跌，后市横盘",
+        "predict": "今日看淡，近日看淡，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -3,
+        "tip": "均线死叉",
         "datetime": "2019-10-06 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -3,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -3,
+        "tip": "均线死叉",
         "datetime": "2019-10-07 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -3,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
         "weight": 3,
@@ -3018,45 +5262,45 @@
             "hold": 0
         },
         "presage": {
-            "today": 2,
+            "today": 3,
             "recently": 2,
             "next": 1
         },
-        "predict": "今日看好，近日看好，后市横盘",
+        "predict": "今日看涨，近日看好，后市横盘",
         "action": "买入"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": 3,
+        "tip": "均线金叉(预)",
         "datetime": "2019-10-09 00:00:00",
         "policy": {
-            "buy": 0,
+            "buy": 1,
             "sell": 0,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": 3,
+            "recently": 2,
+            "next": 1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看涨，近日看好，后市横盘",
+        "action": "买入"
     },
     {
-        "weight": 5,
-        "tip": "均线金叉 旱地拔葱",
+        "weight": 3,
+        "tip": "均线金叉",
         "datetime": "2019-10-10 00:00:00",
         "policy": {
-            "buy": 2,
+            "buy": 1,
             "sell": 0,
             "hold": 0
         },
         "presage": {
-            "today": 5,
-            "recently": 3,
-            "next": 2
+            "today": 3,
+            "recently": 2,
+            "next": 1
         },
-        "predict": "今日大涨，近日看涨，后市看好",
+        "predict": "今日看涨，近日看好，后市横盘",
         "action": "买入"
     },
     {
@@ -3070,28 +5314,28 @@
         },
         "presage": {
             "today": -5,
-            "recently": -3,
-            "next": 1
+            "recently": -2,
+            "next": 0
         },
-        "predict": "今日大跌，近日看跌，后市横盘",
+        "predict": "今日大跌，近日看淡，后市不明",
         "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -2,
+        "tip": "倾盆大雨",
         "datetime": "2019-10-12 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -2,
+            "recently": -1,
+            "next": -2
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
     },
     {
         "weight": 0,
@@ -3121,10 +5365,10 @@
         },
         "presage": {
             "today": -2,
-            "recently": -1,
-            "next": 0
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日看淡，近日横盘，后市不明",
+        "predict": "今日看淡，近日看淡，后市横盘",
         "action": "卖出"
     },
     {
@@ -3145,41 +5389,41 @@
         "action": "观察"
     },
     {
-        "weight": -2,
-        "tip": "均线空头",
+        "weight": -4,
+        "tip": "均线死叉 均线空头",
         "datetime": "2019-10-16 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 1,
+            "sell": 2,
             "hold": 0
         },
         "presage": {
-            "today": -2,
-            "recently": -1,
+            "today": -4,
+            "recently": -3,
             "next": -1
         },
-        "predict": "今日看淡，近日横盘，后市横盘",
+        "predict": "今日大跌，近日看跌，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": -2,
-        "tip": "均线空头",
+        "weight": -4,
+        "tip": "均线死叉 均线空头",
         "datetime": "2019-10-17 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 1,
+            "sell": 2,
             "hold": 0
         },
         "presage": {
-            "today": -2,
-            "recently": -1,
+            "today": -4,
+            "recently": -3,
             "next": -1
         },
-        "predict": "今日看淡，近日横盘，后市横盘",
+        "predict": "今日大跌，近日看跌，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": -2,
+        "weight": -1,
         "tip": "均线空头",
         "datetime": "2019-10-18 00:00:00",
         "policy": {
@@ -3188,15 +5432,15 @@
             "hold": 0
         },
         "presage": {
-            "today": -2,
+            "today": -1,
             "recently": -1,
-            "next": -1
+            "next": 0
         },
-        "predict": "今日看淡，近日横盘，后市横盘",
+        "predict": "今日看淡，近日横盘，后市不明",
         "action": "卖出"
     },
     {
-        "weight": -2,
+        "weight": -1,
         "tip": "均线空头",
         "datetime": "2019-10-19 00:00:00",
         "policy": {
@@ -3205,15 +5449,15 @@
             "hold": 0
         },
         "presage": {
-            "today": -2,
+            "today": -1,
             "recently": -1,
-            "next": -1
+            "next": 0
         },
-        "predict": "今日看淡，近日横盘，后市横盘",
+        "predict": "今日看淡，近日横盘，后市不明",
         "action": "卖出"
     },
     {
-        "weight": -2,
+        "weight": -1,
         "tip": "均线空头",
         "datetime": "2019-10-20 00:00:00",
         "policy": {
@@ -3222,15 +5466,15 @@
             "hold": 0
         },
         "presage": {
-            "today": -2,
+            "today": -1,
             "recently": -1,
-            "next": -1
+            "next": 0
         },
-        "predict": "今日看淡，近日横盘，后市横盘",
+        "predict": "今日看淡，近日横盘，后市不明",
         "action": "卖出"
     },
     {
-        "weight": -2,
+        "weight": -1,
         "tip": "均线空头",
         "datetime": "2019-10-21 00:00:00",
         "policy": {
@@ -3239,66 +5483,66 @@
             "hold": 0
         },
         "presage": {
-            "today": -2,
+            "today": -1,
             "recently": -1,
-            "next": -1
+            "next": 0
         },
-        "predict": "今日看淡，近日横盘，后市横盘",
+        "predict": "今日看淡，近日横盘，后市不明",
         "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "均线空头 旱地拔葱",
+        "weight": -1,
+        "tip": "均线空头",
         "datetime": "2019-10-22 00:00:00",
         "policy": {
-            "buy": 1,
+            "buy": 0,
             "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
+            "today": -1,
+            "recently": -1,
             "next": 0
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
     },
     {
-        "weight": -2,
-        "tip": "均线空头",
+        "weight": -3,
+        "tip": "均线下拐 均线空头",
         "datetime": "2019-10-23 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 1,
+            "sell": 2,
             "hold": 0
         },
         "presage": {
-            "today": -2,
-            "recently": -1,
+            "today": -3,
+            "recently": -3,
             "next": -1
         },
-        "predict": "今日看淡，近日横盘，后市横盘",
+        "predict": "今日看跌，近日看跌，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": -2,
-        "tip": "均线空头",
+        "weight": -4,
+        "tip": "均线死叉(预) 均线空头",
         "datetime": "2019-10-24 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 1,
+            "sell": 2,
             "hold": 0
         },
         "presage": {
-            "today": -2,
-            "recently": -1,
+            "today": -4,
+            "recently": -3,
             "next": -1
         },
-        "predict": "今日看淡，近日横盘，后市横盘",
+        "predict": "今日大跌，近日看跌，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": 2,
+        "weight": 3,
         "tip": "均线空头 早晨之星(预)",
         "datetime": "2019-10-25 00:00:00",
         "policy": {
@@ -3307,16 +5551,16 @@
             "hold": 0
         },
         "presage": {
-            "today": 1,
-            "recently": 2,
-            "next": -1
+            "today": 2,
+            "recently": 1,
+            "next": 1
         },
-        "predict": "今日看好，近日看好，后市横盘",
+        "predict": "今日看好，近日横盘，后市横盘",
         "action": "留守"
     },
     {
-        "weight": 7,
-        "tip": "均线金叉 早晨之星",
+        "weight": 8,
+        "tip": "早晨之星 蛟龙出海",
         "datetime": "2019-10-26 00:00:00",
         "policy": {
             "buy": 2,
@@ -3324,29 +5568,29 @@
             "hold": 0
         },
         "presage": {
-            "today": 6,
-            "recently": 4,
-            "next": 1
+            "today": 5,
+            "recently": 5,
+            "next": 3
         },
-        "predict": "今日大涨，近日看涨，后市横盘",
+        "predict": "今日大涨，近日大涨，后市看涨",
         "action": "买入"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": 2,
+        "tip": "均线金叉 烈日当空",
         "datetime": "2019-10-27 00:00:00",
         "policy": {
-            "buy": 0,
-            "sell": 0,
+            "buy": 1,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": 2,
+            "recently": 1,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看好，近日横盘，后市横盘",
+        "action": "留守"
     },
     {
         "weight": 1,
@@ -3358,12 +5602,12 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
-            "recently": 1,
+            "today": 1,
+            "recently": 0,
             "next": 0
         },
-        "predict": "今日看好，近日横盘，后市不明",
-        "action": "留守"
+        "predict": "今日看好，近日不明，后市不明",
+        "action": "观察"
     },
     {
         "weight": 0,
@@ -3400,21 +5644,21 @@
         "action": "观察"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -2,
+        "tip": "倾盆大雨",
         "datetime": "2019-10-31 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -2,
+            "recently": -1,
+            "next": -2
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
     },
     {
         "weight": -2,
@@ -3427,10 +5671,10 @@
         },
         "presage": {
             "today": -2,
-            "recently": -1,
-            "next": 0
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日看淡，近日横盘，后市不明",
+        "predict": "今日看淡，近日看淡，后市横盘",
         "action": "卖出"
     },
     {
@@ -3451,21 +5695,21 @@
         "action": "观察"
     },
     {
-        "weight": 2,
-        "tip": "缩量上涨",
+        "weight": 0,
+        "tip": "",
         "datetime": "2019-11-03 00:00:00",
         "policy": {
-            "buy": 1,
+            "buy": 0,
             "sell": 0,
             "hold": 0
         },
         "presage": {
-            "today": 3,
-            "recently": 2,
+            "today": 0,
+            "recently": 0,
             "next": 0
         },
-        "predict": "今日看涨，近日看好，后市不明",
-        "action": "买入"
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
     },
     {
         "weight": 0,
@@ -3519,72 +5763,72 @@
         "action": "观察"
     },
     {
-        "weight": -5,
-        "tip": "均线下拐 均线死叉",
+        "weight": -2,
+        "tip": "均线下拐",
         "datetime": "2019-11-07 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 2,
+            "sell": 1,
             "hold": 0
-        },
-        "presage": {
-            "today": -5,
-            "recently": -3,
-            "next": -1
-        },
-        "predict": "今日大跌，近日看跌，后市横盘",
-        "action": "卖出"
-    },
-    {
-        "weight": 0,
-        "tip": "",
-        "datetime": "2019-11-08 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 0
-        },
-        "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
-        },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
-    },
-    {
-        "weight": -1,
-        "tip": "缩量下跌",
-        "datetime": "2019-11-09 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 1
         },
         "presage": {
             "today": -2,
-            "recently": -1,
-            "next": 0
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日看淡，近日横盘，后市不明",
-        "action": "警惕"
+        "predict": "今日看淡，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
-        "datetime": "2019-11-10 00:00:00",
+        "weight": -3,
+        "tip": "均线死叉(预)",
+        "datetime": "2019-11-08 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -3,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -6,
+        "tip": "均线死叉 缩量下跌 倾盆大雨",
+        "datetime": "2019-11-09 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 2,
+            "hold": 1
+        },
+        "presage": {
+            "today": -6,
+            "recently": -4,
+            "next": -3
+        },
+        "predict": "今日大跌，近日大跌，后市看跌",
+        "action": "卖出"
+    },
+    {
+        "weight": -3,
+        "tip": "均线死叉",
+        "datetime": "2019-11-10 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -3,
+            "recently": -2,
+            "next": -1
+        },
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
         "weight": 0,
@@ -3741,7 +5985,7 @@
     },
     {
         "weight": -2,
-        "tip": "放量下跌",
+        "tip": "倾盆大雨",
         "datetime": "2019-11-20 00:00:00",
         "policy": {
             "buy": 0,
@@ -3750,10 +5994,10 @@
         },
         "presage": {
             "today": -2,
-            "recently": -2,
-            "next": -1
+            "recently": -1,
+            "next": -2
         },
-        "predict": "今日看淡，近日看淡，后市横盘",
+        "predict": "今日看淡，近日横盘，后市看淡",
         "action": "卖出"
     },
     {
@@ -3774,38 +6018,38 @@
         "action": "观察"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -2,
+        "tip": "倾盆大雨",
         "datetime": "2019-11-22 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -2,
+            "recently": -1,
+            "next": -2
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -2,
+        "tip": "倾盆大雨",
         "datetime": "2019-11-23 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -2,
+            "recently": -1,
+            "next": -2
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
     },
     {
         "weight": 1,
@@ -3817,28 +6061,28 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
-            "recently": 1,
+            "today": 1,
+            "recently": 0,
             "next": 0
         },
-        "predict": "今日看好，近日横盘，后市不明",
-        "action": "留守"
+        "predict": "今日看好，近日不明，后市不明",
+        "action": "观察"
     },
     {
-        "weight": -2,
-        "tip": "放量下跌",
+        "weight": -4,
+        "tip": "放量下跌 倾盆大雨",
         "datetime": "2019-11-25 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 1,
+            "sell": 2,
             "hold": 0
         },
         "presage": {
-            "today": -2,
+            "today": -4,
             "recently": -2,
-            "next": -1
+            "next": -3
         },
-        "predict": "今日看淡，近日看淡，后市横盘",
+        "predict": "今日大跌，近日看淡，后市看跌",
         "action": "卖出"
     },
     {
@@ -3852,10 +6096,10 @@
         },
         "presage": {
             "today": 2,
-            "recently": 2,
+            "recently": 1,
             "next": 1
         },
-        "predict": "今日看好，近日看好，后市横盘",
+        "predict": "今日看好，近日横盘，后市横盘",
         "action": "留守"
     },
     {
@@ -3893,38 +6137,38 @@
         "action": "买入"
     },
     {
-        "weight": 4,
-        "tip": "缩量上涨 旱地拔葱",
+        "weight": -1,
+        "tip": "烈日当空",
         "datetime": "2019-11-29 00:00:00",
         "policy": {
-            "buy": 2,
-            "sell": 0,
+            "buy": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 5,
-            "recently": 3,
-            "next": 1
+            "today": -1,
+            "recently": -1,
+            "next": -2
         },
-        "predict": "今日大涨，近日看涨，后市横盘",
-        "action": "买入"
+        "predict": "今日看淡，近日横盘，后市看淡",
+        "action": "卖出"
     },
     {
-        "weight": 2,
-        "tip": "缩量上涨",
+        "weight": 0,
+        "tip": "",
         "datetime": "2019-11-30 00:00:00",
         "policy": {
-            "buy": 1,
+            "buy": 0,
             "sell": 0,
             "hold": 0
         },
         "presage": {
-            "today": 3,
-            "recently": 2,
+            "today": 0,
+            "recently": 0,
             "next": 0
         },
-        "predict": "今日看涨，近日看好，后市不明",
-        "action": "买入"
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
     },
     {
         "weight": 0,
@@ -3944,21 +6188,21 @@
         "action": "观察"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -5,
+        "tip": "均线死叉(预) 倾盆大雨",
         "datetime": "2019-12-02 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 2,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -5,
+            "recently": -3,
+            "next": -3
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日大跌，近日看跌，后市看跌",
+        "action": "卖出"
     },
     {
         "weight": -2,
@@ -3971,45 +6215,45 @@
         },
         "presage": {
             "today": -2,
-            "recently": -1,
-            "next": 0
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日看淡，近日横盘，后市不明",
+        "predict": "今日看淡，近日看淡，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -3,
+        "tip": "均线死叉",
         "datetime": "2019-12-04 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -3,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
-        "weight": 2,
-        "tip": "旱地拔葱",
+        "weight": -3,
+        "tip": "均线死叉",
         "datetime": "2019-12-05 00:00:00",
         "policy": {
-            "buy": 1,
-            "sell": 0,
+            "buy": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
+            "today": -3,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "买入"
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
         "weight": 0,
@@ -4046,7 +6290,7 @@
         "action": "观察"
     },
     {
-        "weight": -2,
+        "weight": -1,
         "tip": "均线空头",
         "datetime": "2019-12-08 00:00:00",
         "policy": {
@@ -4055,16 +6299,16 @@
             "hold": 0
         },
         "presage": {
-            "today": -2,
+            "today": -1,
             "recently": -1,
-            "next": -1
+            "next": 0
         },
-        "predict": "今日看淡，近日横盘，后市横盘",
+        "predict": "今日看淡，近日横盘，后市不明",
         "action": "卖出"
     },
     {
-        "weight": -3,
-        "tip": "均线死叉",
+        "weight": -2,
+        "tip": "均线下拐",
         "datetime": "2019-12-09 00:00:00",
         "policy": {
             "buy": 0,
@@ -4072,16 +6316,16 @@
             "hold": 0
         },
         "presage": {
-            "today": -3,
+            "today": -2,
             "recently": -2,
             "next": -1
         },
-        "predict": "今日看跌，近日看淡，后市横盘",
+        "predict": "今日看淡，近日看淡，后市横盘",
         "action": "卖出"
     },
     {
         "weight": -3,
-        "tip": "均线死叉",
+        "tip": "均线死叉(预)",
         "datetime": "2019-12-10 00:00:00",
         "policy": {
             "buy": 0,
@@ -4097,179 +6341,26 @@
         "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -5,
+        "tip": "均线死叉(预) 倾盆大雨",
         "datetime": "2019-12-11 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 2,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -5,
+            "recently": -3,
+            "next": -3
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日大跌，近日看跌，后市看跌",
+        "action": "卖出"
     },
     {
-        "weight": -2,
-        "tip": "均线空头",
+        "weight": -4,
+        "tip": "均线死叉 均线空头",
         "datetime": "2019-12-12 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 1,
-            "hold": 0
-        },
-        "presage": {
-            "today": -2,
-            "recently": -1,
-            "next": -1
-        },
-        "predict": "今日看淡，近日横盘，后市横盘",
-        "action": "卖出"
-    },
-    {
-        "weight": -2,
-        "tip": "均线空头",
-        "datetime": "2019-12-13 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 1,
-            "hold": 0
-        },
-        "presage": {
-            "today": -2,
-            "recently": -1,
-            "next": -1
-        },
-        "predict": "今日看淡，近日横盘，后市横盘",
-        "action": "卖出"
-    },
-    {
-        "weight": -2,
-        "tip": "均线空头",
-        "datetime": "2019-12-14 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 1,
-            "hold": 0
-        },
-        "presage": {
-            "today": -2,
-            "recently": -1,
-            "next": -1
-        },
-        "predict": "今日看淡，近日横盘，后市横盘",
-        "action": "卖出"
-    },
-    {
-        "weight": -3,
-        "tip": "缩量下跌 均线空头",
-        "datetime": "2019-12-15 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 1,
-            "hold": 1
-        },
-        "presage": {
-            "today": -4,
-            "recently": -2,
-            "next": -1
-        },
-        "predict": "今日大跌，近日看淡，后市横盘",
-        "action": "卖出"
-    },
-    {
-        "weight": -2,
-        "tip": "均线空头",
-        "datetime": "2019-12-16 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 1,
-            "hold": 0
-        },
-        "presage": {
-            "today": -2,
-            "recently": -1,
-            "next": -1
-        },
-        "predict": "今日看淡，近日横盘，后市横盘",
-        "action": "卖出"
-    },
-    {
-        "weight": -2,
-        "tip": "均线空头",
-        "datetime": "2019-12-17 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 1,
-            "hold": 0
-        },
-        "presage": {
-            "today": -2,
-            "recently": -1,
-            "next": -1
-        },
-        "predict": "今日看淡，近日横盘，后市横盘",
-        "action": "卖出"
-    },
-    {
-        "weight": -2,
-        "tip": "均线空头",
-        "datetime": "2019-12-18 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 1,
-            "hold": 0
-        },
-        "presage": {
-            "today": -2,
-            "recently": -1,
-            "next": -1
-        },
-        "predict": "今日看淡，近日横盘，后市横盘",
-        "action": "卖出"
-    },
-    {
-        "weight": 2,
-        "tip": "均线空头 早晨之星(预)",
-        "datetime": "2019-12-19 00:00:00",
-        "policy": {
-            "buy": 1,
-            "sell": 1,
-            "hold": 0
-        },
-        "presage": {
-            "today": 1,
-            "recently": 2,
-            "next": -1
-        },
-        "predict": "今日看好，近日看好，后市横盘",
-        "action": "留守"
-    },
-    {
-        "weight": 2,
-        "tip": "均线空头 早晨之星",
-        "datetime": "2019-12-20 00:00:00",
-        "policy": {
-            "buy": 1,
-            "sell": 1,
-            "hold": 0
-        },
-        "presage": {
-            "today": 1,
-            "recently": 1,
-            "next": -1
-        },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "留守"
-    },
-    {
-        "weight": -5,
-        "tip": "均线死叉(预) 均线空头",
-        "datetime": "2019-12-21 00:00:00",
         "policy": {
             "buy": 0,
             "sell": 2,
@@ -4278,9 +6369,162 @@
         "presage": {
             "today": -4,
             "recently": -3,
-            "next": -2
+            "next": -1
         },
-        "predict": "今日大跌，近日看跌，后市看淡",
+        "predict": "今日大跌，近日看跌，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -4,
+        "tip": "均线死叉 均线空头",
+        "datetime": "2019-12-13 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 2,
+            "hold": 0
+        },
+        "presage": {
+            "today": -4,
+            "recently": -3,
+            "next": -1
+        },
+        "predict": "今日大跌，近日看跌，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-12-14 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -2,
+        "tip": "缩量下跌 均线空头",
+        "datetime": "2019-12-15 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 1
+        },
+        "presage": {
+            "today": -2,
+            "recently": -2,
+            "next": 0
+        },
+        "predict": "今日看淡，近日看淡，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-12-16 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-12-17 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-12-18 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
+        "action": "卖出"
+    },
+    {
+        "weight": 3,
+        "tip": "均线空头 早晨之星(预)",
+        "datetime": "2019-12-19 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": 2,
+            "recently": 1,
+            "next": 1
+        },
+        "predict": "今日看好，近日横盘，后市横盘",
+        "action": "留守"
+    },
+    {
+        "weight": 2,
+        "tip": "均线空头 早晨之星 烈日当空",
+        "datetime": "2019-12-20 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 2,
+            "hold": 0
+        },
+        "presage": {
+            "today": 0,
+            "recently": 0,
+            "next": -1
+        },
+        "predict": "今日不明，近日不明，后市横盘",
+        "action": "卖出"
+    },
+    {
+        "weight": -1,
+        "tip": "均线空头",
+        "datetime": "2019-12-21 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 0
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": 0
+        },
+        "predict": "今日看淡，近日横盘，后市不明",
         "action": "卖出"
     },
     {
@@ -4301,9 +6545,26 @@
         "action": "观察"
     },
     {
+        "weight": 3,
+        "tip": "均线金叉",
+        "datetime": "2019-12-23 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 0
+        },
+        "presage": {
+            "today": 3,
+            "recently": 2,
+            "next": 1
+        },
+        "predict": "今日看涨，近日看好，后市横盘",
+        "action": "买入"
+    },
+    {
         "weight": 0,
         "tip": "",
-        "datetime": "2019-12-23 00:00:00",
+        "datetime": "2019-12-24 00:00:00",
         "policy": {
             "buy": 0,
             "sell": 0,
@@ -4318,23 +6579,6 @@
         "action": "观察"
     },
     {
-        "weight": 2,
-        "tip": "旱地拔葱",
-        "datetime": "2019-12-24 00:00:00",
-        "policy": {
-            "buy": 1,
-            "sell": 0,
-            "hold": 0
-        },
-        "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
-        },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "买入"
-    },
-    {
         "weight": -5,
         "tip": "放量下跌 乌云盖顶",
         "datetime": "2019-12-25 00:00:00",
@@ -4345,10 +6589,10 @@
         },
         "presage": {
             "today": -4,
-            "recently": -4,
+            "recently": -2,
             "next": -1
         },
-        "predict": "今日大跌，近日大跌，后市横盘",
+        "predict": "今日大跌，近日看淡，后市横盘",
         "action": "卖出"
     },
     {
@@ -4396,10 +6640,10 @@
         },
         "presage": {
             "today": -2,
-            "recently": -1,
-            "next": 0
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日看淡，近日横盘，后市不明",
+        "predict": "今日看淡，近日看淡，后市横盘",
         "action": "卖出"
     },
     {
@@ -4437,38 +6681,38 @@
         "action": "观察"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -3,
+        "tip": "均线死叉(预)",
         "datetime": "2019-12-31 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -3,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -3,
+        "tip": "均线死叉",
         "datetime": "2020-01-01 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -3,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
         "weight": 0,
@@ -4505,20 +6749,20 @@
         "action": "观察"
     },
     {
-        "weight": 3,
-        "tip": "均线金叉(预)",
+        "weight": 7,
+        "tip": "均线金叉(预) 蛟龙出海",
         "datetime": "2020-01-04 00:00:00",
         "policy": {
-            "buy": 1,
+            "buy": 2,
             "sell": 0,
             "hold": 0
         },
         "presage": {
-            "today": 2,
-            "recently": 2,
-            "next": 1
+            "today": 6,
+            "recently": 5,
+            "next": 3
         },
-        "predict": "今日看好，近日看好，后市横盘",
+        "predict": "今日大涨，近日大涨，后市看涨",
         "action": "买入"
     },
     {
@@ -4539,21 +6783,21 @@
         "action": "买入"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": 3,
+        "tip": "均线金叉",
         "datetime": "2020-01-06 00:00:00",
         "policy": {
-            "buy": 0,
+            "buy": 1,
             "sell": 0,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": 3,
+            "recently": 2,
+            "next": 1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看涨，近日看好，后市横盘",
+        "action": "买入"
     },
     {
         "weight": 0,
@@ -4582,29 +6826,29 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
-            "recently": 1,
+            "today": 1,
+            "recently": 0,
             "next": 0
         },
-        "predict": "今日看好，近日横盘，后市不明",
-        "action": "留守"
+        "predict": "今日看好，近日不明，后市不明",
+        "action": "观察"
     },
     {
-        "weight": 1,
-        "tip": "放量上涨",
+        "weight": 0,
+        "tip": "放量上涨 烈日当空",
         "datetime": "2020-01-09 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 1
         },
         "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 0
+            "today": 0,
+            "recently": -1,
+            "next": -2
         },
-        "predict": "今日看好，近日横盘，后市不明",
-        "action": "留守"
+        "predict": "今日不明，近日横盘，后市看淡",
+        "action": "卖出"
     },
     {
         "weight": 0,
@@ -4624,21 +6868,21 @@
         "action": "观察"
     },
     {
-        "weight": 2,
-        "tip": "缩量上涨",
+        "weight": 0,
+        "tip": "",
         "datetime": "2020-01-11 00:00:00",
         "policy": {
-            "buy": 1,
+            "buy": 0,
             "sell": 0,
             "hold": 0
         },
         "presage": {
-            "today": 3,
-            "recently": 2,
+            "today": 0,
+            "recently": 0,
             "next": 0
         },
-        "predict": "今日看涨，近日看好，后市不明",
-        "action": "买入"
+        "predict": "今日不明，近日不明，后市不明",
+        "action": "观察"
     },
     {
         "weight": 0,
@@ -4668,10 +6912,10 @@
         },
         "presage": {
             "today": -2,
-            "recently": -1,
-            "next": 0
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日看淡，近日横盘，后市不明",
+        "predict": "今日看淡，近日看淡，后市横盘",
         "action": "卖出"
     },
     {
@@ -4692,24 +6936,24 @@
         "action": "观察"
     },
     {
-        "weight": 4,
-        "tip": "缩量上涨 均线多头",
+        "weight": 1,
+        "tip": "均线多头",
         "datetime": "2020-01-15 00:00:00",
         "policy": {
-            "buy": 1,
+            "buy": 0,
             "sell": 0,
             "hold": 1
         },
         "presage": {
-            "today": 5,
-            "recently": 3,
-            "next": 1
+            "today": 1,
+            "recently": 1,
+            "next": 0
         },
-        "predict": "今日大涨，近日看涨，后市横盘",
-        "action": "买入"
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2020-01-16 00:00:00",
         "policy": {
@@ -4718,15 +6962,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2020-01-17 00:00:00",
         "policy": {
@@ -4735,15 +6979,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2020-01-18 00:00:00",
         "policy": {
@@ -4752,15 +6996,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 0,
+        "weight": -1,
         "tip": "均线下拐 均线多头",
         "datetime": "2020-01-19 00:00:00",
         "policy": {
@@ -4769,32 +7013,32 @@
             "hold": 1
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 1
+            "today": -1,
+            "recently": -1,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市横盘",
+        "predict": "今日看淡，近日横盘，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": 2,
-        "tip": "均线多头",
+        "weight": -1,
+        "tip": "均线多头 倾盆大雨",
         "datetime": "2020-01-20 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 1
         },
         "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
+            "today": -1,
+            "recently": 0,
+            "next": -2
         },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "留守"
+        "predict": "今日看淡，近日不明，后市看淡",
+        "action": "卖出"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2020-01-21 00:00:00",
         "policy": {
@@ -4803,15 +7047,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2020-01-22 00:00:00",
         "policy": {
@@ -4820,46 +7064,46 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -3,
+        "tip": "均线死叉",
         "datetime": "2020-01-23 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 1,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -3,
+            "recently": -2,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日看跌，近日看淡，后市横盘",
+        "action": "卖出"
     },
     {
-        "weight": 0,
-        "tip": "",
+        "weight": -5,
+        "tip": "均线死叉 倾盆大雨",
         "datetime": "2020-01-24 00:00:00",
         "policy": {
             "buy": 0,
-            "sell": 0,
+            "sell": 2,
             "hold": 0
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 0
+            "today": -5,
+            "recently": -3,
+            "next": -3
         },
-        "predict": "今日不明，近日不明，后市不明",
-        "action": "观察"
+        "predict": "今日大跌，近日看跌，后市看跌",
+        "action": "卖出"
     },
     {
         "weight": 0,
@@ -4913,41 +7157,41 @@
         "action": "观察"
     },
     {
-        "weight": 2,
-        "tip": "均线多头",
+        "weight": 4,
+        "tip": "均线金叉 均线多头",
         "datetime": "2020-01-28 00:00:00",
-        "policy": {
-            "buy": 0,
-            "sell": 0,
-            "hold": 1
-        },
-        "presage": {
-            "today": 2,
-            "recently": 1,
-            "next": 1
-        },
-        "predict": "今日看好，近日横盘，后市横盘",
-        "action": "留守"
-    },
-    {
-        "weight": 3,
-        "tip": "均线多头 恋人并肩",
-        "datetime": "2020-01-29 00:00:00",
         "policy": {
             "buy": 1,
             "sell": 0,
             "hold": 1
         },
         "presage": {
-            "today": 0,
+            "today": 4,
             "recently": 3,
-            "next": 2
+            "next": 1
         },
-        "predict": "今日不明，近日看涨，后市看好",
+        "predict": "今日看涨，近日看涨，后市横盘",
         "action": "买入"
     },
     {
-        "weight": 4,
+        "weight": 5,
+        "tip": "均线金叉 均线多头 恋人并肩",
+        "datetime": "2020-01-29 00:00:00",
+        "policy": {
+            "buy": 2,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 2,
+            "recently": 5,
+            "next": 2
+        },
+        "predict": "今日看好，近日大涨，后市看好",
+        "action": "买入"
+    },
+    {
+        "weight": 3,
         "tip": "放量上涨 均线多头 恋人并肩",
         "datetime": "2020-01-30 00:00:00",
         "policy": {
@@ -4956,15 +7200,15 @@
             "hold": 2
         },
         "presage": {
-            "today": 2,
-            "recently": 4,
-            "next": 2
+            "today": 0,
+            "recently": 3,
+            "next": 1
         },
-        "predict": "今日看好，近日看涨，后市看好",
+        "predict": "今日不明，近日看涨，后市横盘",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2020-01-31 00:00:00",
         "policy": {
@@ -4973,15 +7217,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2020-02-01 00:00:00",
         "policy": {
@@ -4990,15 +7234,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2020-02-02 00:00:00",
         "policy": {
@@ -5007,15 +7251,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 0,
+        "weight": -1,
         "tip": "均线下拐 均线多头",
         "datetime": "2020-02-03 00:00:00",
         "policy": {
@@ -5024,15 +7268,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 0,
-            "recently": 0,
-            "next": 1
+            "today": -1,
+            "recently": -1,
+            "next": -1
         },
-        "predict": "今日不明，近日不明，后市横盘",
+        "predict": "今日看淡，近日横盘，后市横盘",
         "action": "卖出"
     },
     {
-        "weight": 1,
+        "weight": 0,
         "tip": "跳空低开 均线多头",
         "datetime": "2020-02-04 00:00:00",
         "policy": {
@@ -5041,15 +7285,15 @@
             "hold": 2
         },
         "presage": {
-            "today": 0,
-            "recently": 1,
-            "next": 0
+            "today": -1,
+            "recently": 0,
+            "next": -1
         },
-        "predict": "今日不明，近日横盘，后市不明",
-        "action": "留守"
+        "predict": "今日看淡，近日不明，后市横盘",
+        "action": "观察"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2020-02-05 00:00:00",
         "policy": {
@@ -5058,15 +7302,15 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2020-02-06 00:00:00",
         "policy": {
@@ -5075,32 +7319,32 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
-            "next": 1
+            "next": 0
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
     },
     {
-        "weight": 5,
-        "tip": "缩量上涨 均线多头 恋人并肩",
+        "weight": 2,
+        "tip": "均线多头 恋人并肩",
         "datetime": "2020-02-07 00:00:00",
         "policy": {
-            "buy": 2,
+            "buy": 1,
             "sell": 0,
             "hold": 1
         },
         "presage": {
-            "today": 3,
-            "recently": 5,
-            "next": 2
+            "today": -1,
+            "recently": 3,
+            "next": 1
         },
-        "predict": "今日看涨，近日大涨，后市看好",
+        "predict": "今日看淡，近日看涨，后市横盘",
         "action": "买入"
     },
     {
-        "weight": 2,
+        "weight": 1,
         "tip": "均线多头",
         "datetime": "2020-02-08 00:00:00",
         "policy": {
@@ -5109,11 +7353,147 @@
             "hold": 1
         },
         "presage": {
-            "today": 2,
+            "today": 1,
             "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2020-02-09 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 3,
+        "tip": "缩量上涨 均线多头",
+        "datetime": "2020-02-10 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 3,
+            "recently": 2,
             "next": 1
         },
-        "predict": "今日看好，近日横盘，后市横盘",
+        "predict": "今日看涨，近日看好，后市横盘",
+        "action": "买入"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2020-02-11 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
         "action": "留守"
+    },
+    {
+        "weight": 3,
+        "tip": "均线多头 旭日东升",
+        "datetime": "2020-02-12 00:00:00",
+        "policy": {
+            "buy": 1,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 3,
+            "recently": 3,
+            "next": 1
+        },
+        "predict": "今日看涨，近日看涨，后市横盘",
+        "action": "买入"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2020-02-13 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2020-02-14 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": 1,
+        "tip": "均线多头",
+        "datetime": "2020-02-15 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 0,
+            "hold": 1
+        },
+        "presage": {
+            "today": 1,
+            "recently": 1,
+            "next": 0
+        },
+        "predict": "今日看好，近日横盘，后市不明",
+        "action": "留守"
+    },
+    {
+        "weight": -1,
+        "tip": "均线下拐 均线多头",
+        "datetime": "2020-02-16 00:00:00",
+        "policy": {
+            "buy": 0,
+            "sell": 1,
+            "hold": 1
+        },
+        "presage": {
+            "today": -1,
+            "recently": -1,
+            "next": -1
+        },
+        "predict": "今日看淡，近日横盘，后市横盘",
+        "action": "卖出"
     }
 ]
