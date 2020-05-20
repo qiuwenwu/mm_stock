@@ -1,6 +1,6 @@
 {
   "name": "mm_stock",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "这是一个股票分析模块，用于预测和分析股票未来走势。",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/qiuwenwu/mm_stock#readme",
   "dependencies": {
-    "mm_maths": "^1.1.2"
+    "mm_maths": "^1.1.3"
   }
 }
