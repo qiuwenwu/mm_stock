@@ -43,6 +43,7 @@ async function test(marketId) {
 		// 158 蜻蜓点水 07-04
 		// 164 乌云盖顶 06-27
 		// 249 旱地拔葱 04-02
+		"./log_market.json".saveText(res.body);
 		var ret = run(res.body.toJson().datas, 0);
 		var file = "./log.json".fullname(__dirname);
 		file.saveText($.toJson(ret, true));
