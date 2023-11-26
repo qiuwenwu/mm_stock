@@ -49,6 +49,9 @@ async function test(marketId) {
 		file.saveText($.toJson(ret, true));
 		console.log(ret);
 	}
+	else {
+		console.log(res);
+	}
 }
 test(281);
 
